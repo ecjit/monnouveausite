@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_8azzem": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison gratuite",
+            "url": ""
+          }
+        },
         "message_4nYcnz": {
           "type": "message",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "message_8azzem",
         "message_4nYcnz",
         "message"
       ],
