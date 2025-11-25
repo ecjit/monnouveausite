@@ -131,15 +131,33 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#76c893",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "image_with_text_overlay_rB6M4F": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Noir_et_blanc_Simple_Restaurant_Matcha_Logo_4.png",
+        "mobile_image": "shopify://shop_images/Noir_et_blanc_Simple_Restaurant_Matcha_Logo_1300_x_1500_px.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
   "order": [
     "slideshow",
     "logo_list_CyMbfr",
-    "rich_text_eHCgRd"
+    "rich_text_eHCgRd",
+    "image_with_text_overlay_rB6M4F"
   ]
 }
