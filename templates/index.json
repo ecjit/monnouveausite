@@ -202,10 +202,11 @@
         "item_Xta4k3": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_2847.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Morgane F.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Nous avons dû mettre un minuteur sur nos téléphones pour nous arrêter de jouer et aller au lit hier soir 😂😂<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -214,10 +215,11 @@
         "item_3kALVU": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_2846.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Cassandra S.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Je l'ai reçu aujourd'hui (livraison super rapide et nous avons déjà joué environ 10 manches. Je n'avais pas vu mes adolescents ranger volontairement leurs téléphones depuis des MOIS. C'est absolument magique ! Je commande un autre pour la famille de ma sœur.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -226,10 +228,11 @@
         "item_737Jzx": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/IMG_2845.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Suzana K.",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Sans regret, en étant grand mére j'avais mal au coeur que mes petits enfant réstaient scotché devants leur maudit téléphones . mais grace au scrambled j'ai pu les rassemblés afin qu'on joue tous ensemble. Ils m'avaient tellement manqué, MERCI VELLTANO ! </p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -254,6 +257,110 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_EJjyRn": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_rrHYfk": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_cY9YQy": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_khLUFd": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_9awAzP": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_mHLMHk": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_hYBxwb": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_c7McBW": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_jcJtpE": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_DUq8PD": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_bUCWnP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_whFGbD": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_rrHYfk",
+        "title_cY9YQy",
+        "badges_khLUFd",
+        "price_9awAzP",
+        "rating_mHLMHk",
+        "separator_hYBxwb",
+        "description_c7McBW",
+        "variant_picker_jcJtpE",
+        "quantity_selector_DUq8PD",
+        "buy_buttons_bUCWnP",
+        "pickup_availability_whFGbD"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -263,6 +370,7 @@
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
     "image_with_text_overlay_WpYBWK",
-    "multi_column_GrPPNF"
+    "multi_column_GrPPNF",
+    "featured_product_EJjyRn"
   ]
 }
