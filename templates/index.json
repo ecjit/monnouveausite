@@ -333,7 +333,7 @@
         "image_ciM7rT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_14.png",
+            "image": "shopify://shop_images/Sans_titre_900_x_100_px_1.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -343,10 +343,18 @@
           "settings": {
             "show_payment_button": true,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#76c893",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "image_MFkNqj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_900_x_100_px.png",
+            "alignment": "start",
+            "max_width": 500
           }
         }
       },
@@ -363,7 +371,8 @@
         "variant_picker_jcJtpE",
         "quantity_selector_DUq8PD",
         "image_ciM7rT",
-        "buy_buttons_bUCWnP"
+        "buy_buttons_bUCWnP",
+        "image_MFkNqj"
       ],
       "name": "Featured product",
       "settings": {
@@ -383,6 +392,54 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "tabs_eThqie": {
+      "type": "tabs",
+      "blocks": {
+        "tab_TBFHiQ": {
+          "type": "tab",
+          "settings": {
+            "title": "Caractéristique",
+            "content": "<h1>✨ <strong>Comment ça marche — et pourquoi les enfants (et les parents) deviennent accros</strong></h1><p>Un jeu simple… mais qui transforme chaque partie en un moment de rire, de défi et de connexion.</p><h2>🎲 <strong>1. Lancez les dés</strong></h2><p>Tout le monde lance ses 12 dés en même temps.<br/><br/>C’est le moment où tout peut arriver — chaque lancer est une nouvelle aventure.</p><h2>⏳ <strong>2. Le chrono démarre… et votre cœur aussi !</strong></h2><p>Vous avez <strong>3 minutes</strong> pour créer le plus de mots possibles et les connecter comme un mini-mots croisés.<br/><br/>La pression monte, l’excitation aussi, et soudain… tout le monde est concentré, impliqué, vivant le moment à 100 %.</p><h2>⚡ <strong>3. Trouvez les mots, vite !</strong></h2><p>Chaque dé compte.<br/><br/>Chaque mot rapproche.<br/><br/>Pas de noms propres, pas de raccourcis, pas d’excuses.<br/><br/>Juste vous, votre esprit… et le plaisir de trouver LA bonne combinaison avant les autres.</p><h2>🗣️ <strong>4. “FINI !” — Le cri qui arrête tout</strong></h2><p>Terminez avant la fin ?<br/><br/>Criez-le haut et fort !<br/><br/>Le chrono s’arrête, la tension retombe, et place à la fierté : la grille doit tenir la route.<br/><br/>C’est LE moment où tout le monde retient son souffle.</p><h1>❤️ <strong>Pourquoi vous allez tomber amoureux de ce jeu :</strong></h1><h3>⭐ <strong>Des parties courtes et intenses</strong></h3><p>Seulement <strong>3 minutes</strong>, mais un maximum d’adrénaline et de rires.<br/><br/>Parfait pour s’amuser même quand on n’a pas le temps.</p><h3>⭐ <strong>1 à 5 joueurs — seul ou en famille</strong></h3><p>Jouez en solo pour booster votre cerveau…<br/><br/>Ou transformez vos soirées en mini-compétitions pleines d’ambiance.</p><h3>⭐ <strong>Un mélange parfait : mots + vitesse + stratégie</strong></h3><p>Chaque partie stimule la créativité, la logique et la rapidité.<br/><br/>Un vrai booster pour le cerveau, tout en restant simple et fun.</p><h3>⭐ <strong>Un jeu qui rapproche</strong></h3><p>Moins d’écrans, plus de moments ensemble.<br/><br/>Les enfants adorent, les parents profitent, et tout le monde rit.</p><h3>⭐ <strong>Facile à comprendre, impossible à lâcher</strong></h3><p>Une fois lancé… on en redemande.<br/><br/>Parce que chaque grille est différente, chaque partie raconte une nouvelle petite histoire.</p>",
+            "page": ""
+          }
+        },
+        "tab_3Y9g6X": {
+          "type": "tab",
+          "settings": {
+            "title": "Essayez-le 30 jours gratuitement",
+            "content": "<h3>❤️ <strong>30 jours pour l’aimer… ou le renvoyer, tout simplement</strong></h3><p>Nous savons que vous allez adorer ce jeu — mais nous voulons que vous l’essayiez en toute tranquillité.<br/><br/>C’est pourquoi vous bénéficiez de <strong>30 jours complets pour le tester à la maison</strong>, découvrir ses fous rires, ses défis et ses moments partagés.</p><p>Et si, pour une raison ou une autre, la magie n’opère pas ?<br/><br/>Aucun souci : <strong>vous nous le renvoyez dans les 30 jours et nous vous remboursons intégralement.</strong><br/><br/>Sans stress. Sans conditions. Sans questions.</p><p>Parce que votre confiance compte plus que tout. ✨</p>",
+            "page": ""
+          }
+        },
+        "tab_6tmwRP": {
+          "type": "tab",
+          "settings": {
+            "title": "Livraison gratuite a domicile",
+            "content": "<h3>🚀 <strong>Livraison 100% Gratuite & Ultra Rapide</strong></h3><p>On s’occupe de tout : <strong>la livraison est entièrement gratuite</strong>, où que vous soyez.<br/><br/>Votre commande part directement de nos entrepôts et arrive chez vous en <strong>5 à 8 jours ouvrables</strong>, rapidement et en toute sécurité.</p><p>Pas de frais cachés.<br/><br/>Pas d’attente interminable.<br/><br/>Juste un colis qui arrive vite… et un enfant qui sourit encore plus vite. 🎁✨</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_TBFHiQ",
+        "tab_3Y9g6X",
+        "tab_6tmwRP"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -393,6 +450,7 @@
     "rich_text_pcdz6q",
     "image_with_text_overlay_WpYBWK",
     "multi_column_GrPPNF",
-    "featured_product_EJjyRn"
+    "featured_product_EJjyRn",
+    "tabs_eThqie"
   ]
 }
