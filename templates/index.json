@@ -440,6 +440,75 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "faq_k69zVR": {
+      "type": "faq",
+      "blocks": {
+        "item_pGnyiX": {
+          "type": "item",
+          "settings": {
+            "title": "1. À partir de quel âge le jeu est-il adapté ?",
+            "content": "<p><br/>Le jeu est recommandé dès <strong>6 ans</strong>, mais certains enfants plus jeunes peuvent y jouer avec l’aide d’un adulte.<br/><br/></p>"
+          }
+        },
+        "item_UhHqAR": {
+          "type": "item",
+          "settings": {
+            "title": "2. Combien de joueurs peuvent participer ?",
+            "content": "<p>Chaque partie dure environ <strong>3 minutes</strong>.<br/><br/>C’est parfait pour jouer rapidement, même pendant une pause.</p>"
+          }
+        },
+        "item_mfwpJz": {
+          "type": "item",
+          "settings": {
+            "title": "3. Est-ce que les enfants lâchent réellement leur téléphone pour y jouer ?",
+            "content": "<p><br/>Oui, car le jeu est <strong>rapide, stimulant, coloré</strong> et <strong>addictif</strong>.<br/><br/>Il capte leur attention naturellement.<br/><br/></p>"
+          }
+        },
+        "item_JwGtzQ": {
+          "type": "item",
+          "settings": {
+            "title": "4. Combien de temps prend la livraison ?",
+            "content": "<p><br/>La livraison est <strong>gratuite</strong> et arrive en <strong>5 à 8 jours ouvrables</strong>.<br/><br/><br/><br/></p>"
+          }
+        },
+        "item_dcehQD": {
+          "type": "item",
+          "settings": {
+            "title": "5. Le jeu est-il sécurisé pour les enfants ?",
+            "content": "<p><br/>Oui, les dés sont fabriqués dans des matériaux <strong>non toxiques</strong>, résistants et conformes aux <strong>normes européennes</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_pGnyiX",
+        "item_UhHqAR",
+        "item_mfwpJz",
+        "item_JwGtzQ",
+        "item_dcehQD"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 230,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -451,6 +520,7 @@
     "image_with_text_overlay_WpYBWK",
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
-    "tabs_eThqie"
+    "tabs_eThqie",
+    "faq_k69zVR"
   ]
 }
