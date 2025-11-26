@@ -330,6 +330,14 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "image_ciM7rT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_14.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "buy_buttons_bUCWnP": {
           "type": "buy_buttons",
           "settings": {
@@ -354,6 +362,7 @@
         "description_c7McBW",
         "variant_picker_jcJtpE",
         "quantity_selector_DUq8PD",
+        "image_ciM7rT",
         "buy_buttons_bUCWnP"
       ],
       "name": "Featured product",
