@@ -261,9 +261,11 @@
     "featured_product_EJjyRn": {
       "type": "featured-product",
       "blocks": {
-        "vendor_rrHYfk": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_xBgUbz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .trustpilot-score {\n    text-align: left; /* Align the content to the left */\n    margin-top: 10px; /* Add some space above the score */\n  }\n\n  .trustpilot-score p {\n    display: inline; /* Display the text inline */\n    vertical-align: middle; /* Align the content vertically */\n    margin: 0; /* Remove any default margins */\n    font-weight: bold; /* Increase font weight */\n  }\n\n  .trustpilot-score img {\n    max-width: 100px; /* Set maximum width to 100px */\n    height: auto; /* Maintain aspect ratio */\n    margin-left: 10px; /* Add some space between the images */\n    vertical-align: middle; /* Align the images vertically */\n  }\n</style>\n\n<div class=\"trustpilot-score\">\n  <p>Excellent</p>\n  <img src=\"Insert shopify image A link here\">\n  <img src=\"Insert shopify image B link here\">\n</div>"
+          }
         },
         "title_cY9YQy": {
           "type": "title",
@@ -331,7 +333,7 @@
         }
       },
       "block_order": [
-        "vendor_rrHYfk",
+        "liquid_xBgUbz",
         "title_cY9YQy",
         "badges_khLUFd",
         "price_9awAzP",
