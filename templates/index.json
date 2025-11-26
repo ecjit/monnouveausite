@@ -273,6 +273,12 @@
             "heading_tag": "h2"
           }
         },
+        "liquid_9EYRrr": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n        .top-selling-badge {\n            display: flex;\n            align-items: center;\n            padding: 5px 10px;\n            border-radius: 8px;\n            font-family: Arial, sans-serif;\n            font-size: 12px;\n            color: #333;\n            background-color: #f3e5ff; /* Default background color */\n            height: 30px; /* Adjust height to fit content */\n        }\n\n        .top-selling-badge .badge-content {\n            display: none;\n            align-items: center;\n        }\n\n        .top-selling-badge .badge-content.active {\n            display: flex;\n        }\n\n        .badge-content svg {\n            margin-right: 8px;\n            width: 16px; /* Set icon size */\n            height: 16px; /* Set icon size */\n        }\n\n        .badge-content#text2 {\n            background-color: #ffe6e6; /* Very light red background for urgency */\n            color: #b30000; /* Darker red text color */\n        }\n    </style>\n    <title>Top Selling Product</title>\n</head>\n<body>\n    <div class=\"top-selling-badge\">\n        <div id=\"text1\" class=\"badge-content active\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.89 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n            </svg>\n            <span>Produit le plus vendu </span>\n        </div>\n        <div id=\"text2\" class=\"badge-content\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">\n                <path d=\"M1 12a11 11 0 1 0 22 0 11 11 0 1 0-22 0zm11-8a1 1 0 0 1 1 1v6.586l4.293 4.293a1 1 0 0 1-1.414 1.414l-5.293-5.293a1 1 0 0 1-.293-.707V5a1 1 0 0 1 1-1z\"/>\n            </svg>\n            <span>Limited stock available, order now!</span>\n        </div>\n    </div>\n\n    <script>\n        let currentText = 1;\n        setInterval(() => {\n            const text1 = document.getElementById('text1');\n            const text2 = document.getElementById('text2');\n\n            if (currentText === 1) {\n                text1.classList.remove('active');\n                text2.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#ffe6e6'; // Change background color\n            } else {\n                text2.classList.remove('active');\n                text1.classList.add('active');\n                document.querySelector('.top-selling-badge').style.backgroundColor = '#f3e5ff'; // Reset background color\n            }\n\n            currentText = currentText === 1 ? 2 : 1;\n        }, 3000); // Change every 3 seconds\n    </script>\n</body>\n</html>"
+          }
+        },
         "badges_khLUFd": {
           "type": "badges",
           "settings": {}
@@ -326,15 +332,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "pickup_availability_whFGbD": {
-          "type": "pickup_availability",
-          "settings": {}
         }
       },
       "block_order": [
         "liquid_R6FUUe",
         "title_cY9YQy",
+        "liquid_9EYRrr",
         "badges_khLUFd",
         "price_9awAzP",
         "rating_mHLMHk",
@@ -342,8 +345,7 @@
         "description_c7McBW",
         "variant_picker_jcJtpE",
         "quantity_selector_DUq8PD",
-        "buy_buttons_bUCWnP",
-        "pickup_availability_whFGbD"
+        "buy_buttons_bUCWnP"
       ],
       "name": "Featured product",
       "settings": {
