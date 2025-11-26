@@ -458,13 +458,6 @@
             "content": "<p>Chaque partie dure environ <strong>3 minutes</strong>.<br/><br/>C’est parfait pour jouer rapidement, même pendant une pause.</p>"
           }
         },
-        "item_mfwpJz": {
-          "type": "item",
-          "settings": {
-            "title": "3. Est-ce que les enfants lâchent réellement leur téléphone pour y jouer ?",
-            "content": "<p><br/>Oui, car le jeu est <strong>rapide, stimulant, coloré</strong> et <strong>addictif</strong>.<br/><br/>Il capte leur attention naturellement.<br/><br/></p>"
-          }
-        },
         "item_JwGtzQ": {
           "type": "item",
           "settings": {
@@ -483,7 +476,6 @@
       "block_order": [
         "item_pGnyiX",
         "item_UhHqAR",
-        "item_mfwpJz",
         "item_JwGtzQ",
         "item_dcehQD"
       ],
@@ -509,6 +501,27 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "contact_UqVKEY": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Vous n’êtes jamais seul : notre équipe vous accompagne chaque jour de la semaine, avec un temps de réponse moyen de 24 h pour toujours être là quand vous en avez besoin.",
+        "title": "Avez-vous une question ?",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#76c893",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -521,6 +534,7 @@
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "tabs_eThqie",
-    "faq_k69zVR"
+    "faq_k69zVR",
+    "contact_UqVKEY"
   ]
 }
