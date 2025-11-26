@@ -174,7 +174,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#76c893",
         "background_gradient": "",
         "text_color": ""
       }
@@ -187,11 +187,72 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/AV_2.png",
+        "mobile_image": "shopify://shop_images/AV_1300_x_1500_px_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "multi_column_GrPPNF": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Xta4k3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3kALVU": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_737Jzx": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Xta4k3",
+        "item_3kALVU",
+        "item_737Jzx"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Nos clients parlent pour nous .",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
@@ -201,6 +262,7 @@
     "rich_text_eHCgRd",
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
-    "image_with_text_overlay_WpYBWK"
+    "image_with_text_overlay_WpYBWK",
+    "multi_column_GrPPNF"
   ]
 }
