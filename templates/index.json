@@ -15,8 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_3200_x_1600_px_1.png",
-            "mobile_image": "shopify://shop_images/Sans_titre_3200_x_1600_px_1200_x_1600_px_1.png",
+            "image": "shopify://shop_images/baner_pc.png",
             "content_max_width": 840,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -57,7 +56,7 @@
         "logo_yXmFTT": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Capture_d_ecran_2025-11-30_193852.png",
+            "logo": "shopify://shop_images/Forbe.png",
             "logo_width": 300,
             "link": ""
           }
@@ -65,7 +64,7 @@
         "logo_b38RDF": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Capture_d_ecran_2025-11-30_194009.png",
+            "logo": "shopify://shop_images/wolmenshealth.png",
             "logo_width": 300,
             "link": ""
           }
@@ -73,7 +72,7 @@
         "logo_NfA9PA": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Capture_d_ecran_2025-11-30_194053.png",
+            "logo": "shopify://shop_images/vogue.png",
             "logo_width": 300,
             "link": ""
           }
@@ -81,8 +80,16 @@
         "logo_9Jpwdb": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Capture_d_ecran_2025-11-30_194145.png",
+            "logo": "shopify://shop_images/GQ.png",
             "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_NzU8fY": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/cosmopolitan.png",
+            "logo_width": 120,
             "link": ""
           }
         }
@@ -91,7 +98,8 @@
         "logo_yXmFTT",
         "logo_b38RDF",
         "logo_NfA9PA",
-        "logo_9Jpwdb"
+        "logo_9Jpwdb",
+        "logo_NzU8fY"
       ],
       "name": "Logo list",
       "settings": {
@@ -116,7 +124,7 @@
         "heading_8htwfd": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi choisir VELLTANO ?",
+            "text": "Pourquoi choisir SKINYLISS ?",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -144,8 +152,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Noir_et_blanc_Simple_Restaurant_Matcha_Logo_4.png",
-        "mobile_image": "shopify://shop_images/Noir_et_blanc_Simple_Restaurant_Matcha_Logo_1300_x_1500_px.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -187,8 +193,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/AV_2.png",
-        "mobile_image": "shopify://shop_images/AV_1300_x_1500_px_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -202,7 +206,6 @@
         "item_Xta4k3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_2847.jpg",
             "column_size": "3",
             "title": "Morgane F.",
             "heading_tag": "h4",
@@ -215,7 +218,6 @@
         "item_3kALVU": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_2846.jpg",
             "column_size": "3",
             "title": "Cassandra S.",
             "heading_tag": "h4",
@@ -228,7 +230,6 @@
         "item_737Jzx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/IMG_2845.jpg",
             "column_size": "3",
             "title": "Suzana K.",
             "heading_tag": "h4",
@@ -292,7 +293,6 @@
         "image_YnTeGc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_13.png",
             "alignment": "start",
             "max_width": 470
           }
@@ -333,7 +333,6 @@
         "image_ciM7rT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_900_x_100_px_1.png",
             "alignment": "start",
             "max_width": 500
           }
@@ -352,7 +351,6 @@
         "image_MFkNqj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_900_x_100_px.png",
             "alignment": "start",
             "max_width": 500
           }
