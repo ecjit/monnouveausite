@@ -205,6 +205,19 @@
         "overlay_opacity": 30
       }
     },
+    "custom_liquid_p6LJr4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p>94.8% J'ai constaté une diminution significative du relâchement des joues et du cou.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_GrPPNF": {
       "type": "multi-column",
       "blocks": {
@@ -528,19 +541,6 @@
         "button_background": "#f2caca",
         "button_text_color": ""
       }
-    },
-    "custom_liquid_Xq3Kpx": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    border-radius: 8px;\n    overflow: hidden;\n  }\n\n  .comparison-table th, .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 10px;\n    text-align: center;\n  }\n\n  .comparison-table th {\n    background-color: #f2caca;\n  }\n\n  .comparison-table .aspect-column {\n    background-color: #f2caca;\n    text-align: left;\n  }\n\n  .comparison-table td:nth-child(n+2),\n  .comparison-table th:nth-child(n+2) {\n    border-left: none;\n  }\n</style>\n\n<table class=\"comparison-table\">\n  <thead>\n    <tr>\n      <th></th>\n      <th> SKINLYSS</th>\n      <th>Autres Marques</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"aspect-column\">Transparence du prix</td>\n      <td>Prix clair, sans frais cachés</td>\n      <td>Prix variable \n(livraison, douane…)</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Technologie & efficacité</td>\n      <td>Micro-vibrations + lumière LED multi-couleurs</td>\n      <td>Vibrations simples, peu ou pas de LED</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Garantie & retours</td>\n      <td>30 jours satisfait ou remboursé ✅</td>\n      <td>Garantie limitée ou non mentionnée</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Support client</td>\n      <td>Support en français, réponse sous 24h</td>\n      <td>Support lent ou uniquement en anglais</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Sécurité & conformité</td>\n      <td>Produit conforme aux normes CE, usage visage sécurisé</td>\n      <td>Conformité non précisée</td>\n    </tr>\n    <tr>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -550,8 +550,8 @@
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
     "image_with_text_overlay_WpYBWK",
+    "custom_liquid_p6LJr4",
     "multi_column_GrPPNF",
-    "custom_liquid_Xq3Kpx",
     "featured_product_EJjyRn",
     "tabs_eThqie",
     "faq_k69zVR",
