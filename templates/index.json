@@ -153,8 +153,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/benifices_pc.png",
-        "mobile_image": "shopify://shop_images/benifices_phone.png",
+        "image": "shopify://shop_images/27582f11-cde4-491f-8879-4bd435dd4bc3_1.png",
+        "mobile_image": "shopify://shop_images/27582f11-cde4-491f-8879-4bd435dd4bc3_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -203,19 +203,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "custom_liquid_p6LJr4": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p>94.8% J'ai constaté une diminution significative du relâchement des joues et du cou.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>\n<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p> 87% Une réduction notable des ridules et des rides a été constatée.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>\n<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p> 79,2% J'ai constaté une nette amélioration du teint et de la texture de ma peau.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>\n<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p> 88,5% J'ai constaté une nette amélioration de la définition du visage.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>\n<div class=\"progress-info\">\n  <div class=\"image-container\">\n    <img src=\"paste the link inside of these quotes\" alt=\"Circle Image\">\n  </div>\n  <div class=\"text-container\">\n    <p>96% J'ai constaté une meilleure absorption des soins de la peau après avoir utilisé l'appareil.</p>\n  </div>\n</div>\n\n<style>\n.progress-info {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  font-family: Arial, sans-serif;\n}\n\n.image-container {\n  width: 60px; /* Adjust according to your image size */\n  height: 60px; /* Adjust according to your image size */\n}\n\n.image-container img {\n  width: 100%;\n  height: auto;\n  display: block;\n}\n\n.text-container {\n  flex: 1; /* This will make the text container take up remaining space */\n}\n\n.text-container p {\n  margin: 0; /* Remove default margin */\n  font-size: 16px;\n  line-height: 1.4; /* Adjust line height as needed */\n}\n</style>",
-        "background": "#f2f2f2",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "multi_column_GrPPNF": {
@@ -571,7 +558,6 @@
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
     "image_with_text_overlay_WpYBWK",
-    "custom_liquid_p6LJr4",
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "tabs_eThqie",
