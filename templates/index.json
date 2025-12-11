@@ -503,13 +503,21 @@
             "title": "4. Comment utiliser Skinyliss pour de meilleurs résultats ?",
             "content": "<p><br/>Utiliser Skinyliss sur une <strong>peau propre</strong> ou avec un <strong>sérum/crème hydratante</strong>.</p><p>Masser le visage et le cou avec des mouvements <strong>lents et vers le haut</strong>.<br/></p><p>Durée recommandée : <strong>5 à 10 minutes par jour</strong>, <strong>3 à 5 fois par semaine</strong>.<br/><br/>La régularité est la clé 🔑.</p>"
           }
+        },
+        "item_tnMThE": {
+          "type": "item",
+          "settings": {
+            "title": "5. Est-ce que l’appareil fait mal ?",
+            "content": "<p><br/>Non 😊<br/><br/>Le massage Skinyliss est <strong>doux et agréable</strong>.<br/><br/>La plupart des clientes le décrivent comme un moment de <strong>relaxation</strong>, un peu comme un mini-soin en institut à la maison.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
         "item_pGnyiX",
         "item_UhHqAR",
         "item_JwGtzQ",
-        "item_dcehQD"
+        "item_dcehQD",
+        "item_tnMThE"
       ],
       "name": "FAQ",
       "settings": {
