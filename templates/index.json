@@ -460,6 +460,19 @@
         "heading_gradient": ""
       }
     },
+    "custom_liquid_8camay": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .comparison-table {\n    width: 100%;\n    border-collapse: collapse;\n    border-radius: 8px;\n    overflow: hidden;\n  }\n\n  .comparison-table th, .comparison-table td {\n    border: 1px solid #ddd;\n    padding: 10px;\n    text-align: center;\n  }\n\n  .comparison-table th {\n    background-color: #f2f2f2;\n  }\n\n  .comparison-table .aspect-column {\n    background-color: #fff;\n    text-align: left;\n  }\n\n  .comparison-table td:nth-child(n+2),\n  .comparison-table th:nth-child(n+2) {\n    border-left: none;\n  }\n</style>\n\n<table class=\"comparison-table\">\n  <thead>\n    <tr>\n      <th>Aspect</th>\n      <th>Your Brand</th>\n      <th>Competitor A</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"aspect-column\">Price</td>\n      <td>$XX</td>\n      <td>$XX</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Features</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Customer Support</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Durability</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Warranty</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n    <tr>\n      <td class=\"aspect-column\">Ease of Use</td>\n      <td>✅</td>\n      <td>❌</td>\n    </tr>\n  </tbody>\n</table>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq_k69zVR": {
       "type": "faq",
       "blocks": {
@@ -554,6 +567,7 @@
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "tabs_eThqie",
+    "custom_liquid_8camay",
     "faq_k69zVR",
     "contact_UqVKEY"
   ]
