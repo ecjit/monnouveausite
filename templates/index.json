@@ -549,6 +549,29 @@
         "button_background": "#f2caca",
         "button_text_color": ""
       }
+    },
+    "before_after_image_6PYbQq": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
     }
   },
   "order": [
@@ -563,6 +586,7 @@
     "tabs_eThqie",
     "custom_liquid_8camay",
     "faq_k69zVR",
-    "contact_UqVKEY"
+    "contact_UqVKEY",
+    "before_after_image_6PYbQq"
   ]
 }
