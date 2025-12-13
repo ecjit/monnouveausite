@@ -267,6 +267,31 @@
         "text_color": ""
       }
     },
+    "before_after_image_6PYbQq": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Avant/Apres",
+        "content": "<p><strong><br/>En 30 jours seulement, Votre cou se  transforme : plus lisse, plus ferme, comme réveillé.<br/><br/>Chaque jour, vous pourrez voir les marques s’estomper et la peau retrouver sa douceur.</strong><br/><br/><br/><br/></p>",
+        "before_image": "shopify://shop_images/Sans_titre_2000_x_1200_px_785_x_1200_px.png",
+        "after_image": "shopify://shop_images/Sans_titre_2000_x_1200_px_785_x_1200_px_1.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "AVANT",
+        "after_text": "APRES",
+        "drag_initial_position": 50,
+        "background": "#f2caca",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "featured_product_EJjyRn": {
       "type": "featured-product",
       "blocks": {
@@ -549,31 +574,6 @@
         "button_background": "#f2caca",
         "button_text_color": ""
       }
-    },
-    "before_after_image_6PYbQq": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Avant/Apres",
-        "content": "<p><strong><br/>En 30 jours seulement, Votre cou se  transforme : plus lisse, plus ferme, comme réveillé.<br/><br/>Chaque jour, vous pourrez voir les marques s’estomper et la peau retrouver sa douceur.</strong><br/><br/><br/><br/></p>",
-        "before_image": "shopify://shop_images/Sans_titre_2000_x_1200_px_785_x_1200_px.png",
-        "after_image": "shopify://shop_images/Sans_titre_2000_x_1200_px_785_x_1200_px_1.png",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "AVANT",
-        "after_text": "APRES",
-        "drag_initial_position": 50,
-        "background": "#f2caca",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
     }
   },
   "order": [
@@ -584,11 +584,11 @@
     "rich_text_pcdz6q",
     "image_with_text_overlay_WpYBWK",
     "multi_column_GrPPNF",
+    "before_after_image_6PYbQq",
     "featured_product_EJjyRn",
     "tabs_eThqie",
     "custom_liquid_8camay",
     "faq_k69zVR",
-    "contact_UqVKEY",
-    "before_after_image_6PYbQq"
+    "contact_UqVKEY"
   ]
 }
