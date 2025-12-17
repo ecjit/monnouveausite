@@ -433,38 +433,14 @@
         "input_text_color": ""
       }
     },
-    "1765829637503e9562": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_video_slider_tNdPPk": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "show-by-tag": false,
-            "layout": "spotlight",
-            "shadow": "",
-            "show-rating": true,
-            "show-reviewer-name": true,
-            "hide-arrows-mobile": true,
-            "auto-play": true,
-            "show-border": false,
-            "border-width": 1,
-            "border-radius": 16,
-            "text-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "play-button-color": "",
-            "shadow-color": "",
-            "product-id": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_video_slider_tNdPPk"
-      ],
+    "custom_liquid_dA9UXi": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
+        "liquid": "{% render 'reviews-scroll' %}",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -594,19 +570,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_liquid_dA9UXi": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "{% render 'reviews-scroll' %}",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -619,12 +582,11 @@
     "multi_column_GrPPNF",
     "before_after_image_6PYbQq",
     "featured_product_EJjyRn",
-    "1765829637503e9562",
+    "custom_liquid_dA9UXi",
     "custom_liquid_8camay",
     "17657420308042fea2",
     "faq_k69zVR",
     "contact_UqVKEY",
-    "1765742019681bd4fc",
-    "custom_liquid_dA9UXi"
+    "1765742019681bd4fc"
   ]
 }
