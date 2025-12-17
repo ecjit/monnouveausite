@@ -594,6 +594,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_dA9UXi": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "{% render 'reviews-scroll' %}",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -611,6 +624,7 @@
     "17657420308042fea2",
     "faq_k69zVR",
     "contact_UqVKEY",
-    "1765742019681bd4fc"
+    "1765742019681bd4fc",
+    "custom_liquid_dA9UXi"
   ]
 }
