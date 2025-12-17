@@ -1,0 +1,345 @@
+<style>
+.reviews-marquee-section {
+  background: linear-gradient(to bottom, #FDF2F8, #FFFFFF);
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.reviews-title {
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: bold;
+  color: #E8A5B0;
+  margin-bottom: 3rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.reviews-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+}
+
+.reviews-row-1 {
+  animation: scrollLeft 30s linear infinite;
+}
+
+.reviews-row-2 {
+  animation: scrollRight 30s linear infinite;
+}
+
+.reviews-row:hover {
+  animation-play-state: paused;
+}
+
+.review-card {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: white;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  margin: 0 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid #F3F4F6;
+  min-width: max-content;
+}
+
+.review-avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.review-avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-badge {
+  position: absolute;
+  bottom: -0.25rem;
+  right: -0.25rem;
+  background: #EC4899;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 28rem;
+}
+
+.review-text {
+  color: #374151;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.5;
+}
+
+.review-author {
+  color: #111827;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  .reviews-marquee-section {
+    padding: 3rem 0.5rem;
+  }
+  
+  .review-card {
+    padding: 0.875rem 1.25rem;
+  }
+  
+  .review-avatar {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+</style>
+
+<div class="reviews-marquee-section">
+  <h2 class="reviews-title">
+    ILS ADORENT NOTRE SCULPTEUR FACIAL LED
+  </h2>
+
+  <!-- Rangee 1 - Defile vers la gauche -->
+  <div class="reviews-row reviews-row-1">
+    <!-- Premiere serie -->
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" 
+             alt="Camille" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Mes ridules ont diminue et ma peau est plus lisse.</p>
+        <p class="review-author">— Camille D.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" 
+             alt="Laura" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Je l utilise chaque jour, ma peau est eclatante !</p>
+        <p class="review-author">— Laura G.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" 
+             alt="Elodie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Peau plus ferme et lumineuse des les premieres semaines.</p>
+        <p class="review-author">— Elodie M.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&h=100&fit=crop" 
+             alt="Sophie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Incroyable, ma peau est plus dessinee.</p>
+        <p class="review-author">— Sophie L.</p>
+      </div>
+    </div>
+
+    <!-- Deuxieme serie (copie pour le defilement infini) -->
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" 
+             alt="Camille" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Mes ridules ont diminue et ma peau est plus lisse.</p>
+        <p class="review-author">— Camille D.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" 
+             alt="Laura" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Je l utilise chaque jour, ma peau est eclatante !</p>
+        <p class="review-author">— Laura G.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" 
+             alt="Elodie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Peau plus ferme et lumineuse des les premieres semaines.</p>
+        <p class="review-author">— Elodie M.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&h=100&fit=crop" 
+             alt="Sophie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Incroyable, ma peau est plus dessinee.</p>
+        <p class="review-author">— Sophie L.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rangee 2 - Defile vers la droite -->
+  <div class="reviews-row reviews-row-2">
+    <!-- Premiere serie -->
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop" 
+             alt="Chloe" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Simple a utiliser, resultats visibles rapidement.</p>
+        <p class="review-author">— Chloe B.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop" 
+             alt="Marion" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Les resultats sont visibles et durent vraiment.</p>
+        <p class="review-author">— Marion T.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&h=100&fit=crop" 
+             alt="Amandine" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Mes pores sont resserres et ma peau plus douce.</p>
+        <p class="review-author">— Amandine R.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop" 
+             alt="Julie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Je vois la difference ! Peau plus nette, peau ferme.</p>
+        <p class="review-author">— Julie N.</p>
+      </div>
+    </div>
+
+    <!-- Deuxieme serie (copie pour le defilement infini) -->
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop" 
+             alt="Chloe" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Simple a utiliser, resultats visibles rapidement.</p>
+        <p class="review-author">— Chloe B.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop" 
+             alt="Marion" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Les resultats sont visibles et durent vraiment.</p>
+        <p class="review-author">— Marion T.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&h=100&fit=crop" 
+             alt="Amandine" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Mes pores sont resserres et ma peau plus douce.</p>
+        <p class="review-author">— Amandine R.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop" 
+             alt="Julie" 
+             class="review-avatar">
+        <div class="review-badge">5★</div>
+      </div>
+      <div class="review-content">
+        <p class="review-text">Je vois la difference ! Peau plus nette, peau ferme.</p>
+        <p class="review-author">— Julie N.</p>
+      </div>
+    </div>
+  </div>
+</div>
