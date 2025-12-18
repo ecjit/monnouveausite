@@ -10123,10 +10123,12 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
 
 .header {
   position: relative !important;
+  background: #ffffff !important;
 }
 
 .header--transparent {
   position: relative !important;
+  background: #ffffff !important;
 }
 
 /* Assure que le contenu commence après le header */
