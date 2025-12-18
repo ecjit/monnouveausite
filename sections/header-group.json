@@ -55,7 +55,10 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        "header {position: relative !important; z-index: 1000 !important;}",
+        ".header--transparent {background: white !important;}"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
