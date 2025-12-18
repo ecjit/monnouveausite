@@ -10115,3 +10115,25 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   display: -webkit-box;
   overflow: hidden;
 }
+/* Fix header overlay sur bannière */
+.shopify-section-group-header-group {
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+.header {
+  position: relative !important;
+  background: #ffffff !important;
+}
+
+.header--transparent {
+  position: relative !important;
+  background: #ffffff !important;
+}
+
+/* Assure que le contenu commence après le header */
+.main-content,
+#MainContent {
+  position: relative !important;
+  z-index: 1 !important;
+}
