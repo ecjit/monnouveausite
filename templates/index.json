@@ -54,53 +54,44 @@
     "logo_list_CyMbfr": {
       "type": "logo-list",
       "blocks": {
-        "logo_yXmFTT": {
+        "logo_cjeGJ8": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Forbe.png",
-            "logo_width": 300,
+            "logo": "shopify://shop_images/gempages_579889146730906612-7fde3f27-7a58-4a35-b020-dc1efacb2444.svg",
+            "logo_width": 120,
             "link": ""
           }
         },
-        "logo_b38RDF": {
+        "logo_KYyWmb": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/wolmenshealth.png",
-            "logo_width": 300,
+            "logo": "shopify://shop_images/gempages_579889146730906612-63125cc7-ce54-49be-a16c-784b08b4d471.svg",
+            "logo_width": 120,
             "link": ""
           }
         },
-        "logo_NfA9PA": {
+        "logo_M9abcP": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/vogue.png",
-            "logo_width": 300,
+            "logo": "shopify://shop_images/cosmo-removebg-preview.avif",
+            "logo_width": 120,
             "link": ""
           }
         },
-        "logo_9Jpwdb": {
+        "logo_HL4UXq": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/GQ.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_NzU8fY": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/cosmopolitan.png",
+            "logo": "shopify://shop_images/gempages_579889146730906612-d38baf24-60d5-46a0-ba8d-f608ec72532b.avif",
             "logo_width": 120,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_yXmFTT",
-        "logo_b38RDF",
-        "logo_NfA9PA",
-        "logo_9Jpwdb",
-        "logo_NzU8fY"
+        "logo_cjeGJ8",
+        "logo_KYyWmb",
+        "logo_M9abcP",
+        "logo_HL4UXq"
       ],
       "name": "Logo list",
       "settings": {
