@@ -10131,6 +10131,21 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   background: #ffffff !important;
 }
 
+/* Change la couleur du texte et des éléments du menu */
+.header__menu-item,
+.header__inline-menu a,
+.header a,
+.menu-drawer__menu-item {
+  color: #000000 !important;
+}
+
+/* Logo et icônes en noir */
+.header__icon,
+.header svg {
+  fill: #000000 !important;
+  color: #000000 !important;
+}
+
 /* Assure que le contenu commence après le header */
 .main-content,
 #MainContent {
