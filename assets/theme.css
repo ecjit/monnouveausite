@@ -10152,3 +10152,9 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
   position: relative !important;
   z-index: 1 !important;
 }
+/* Ajuste l'affichage de l'image bannière */
+.slideshow__media,
+.banner__media img {
+  object-fit: contain !important; /* Affiche l'image entière */
+  object-position: center !important;
+}
