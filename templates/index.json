@@ -21,7 +21,7 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Éliminez le double menton en 21 jours, sans injection .",
+            "title": "Ovale redessiné, rides atténuées, éclat sublimé en 21 jours, naturellement",
             "heading_tag": "h5",
             "button_text": "",
             "button_link": "",
@@ -378,17 +378,6 @@
             "max_width": 500
           }
         },
-        "buy_buttons_bUCWnP": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "#f2caca",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "image_MFkNqj": {
           "type": "image",
           "settings": {
@@ -411,7 +400,6 @@
         "variant_picker_jcJtpE",
         "quantity_selector_DUq8PD",
         "image_ciM7rT",
-        "buy_buttons_bUCWnP",
         "image_MFkNqj"
       ],
       "name": "Featured product",
