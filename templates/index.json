@@ -328,6 +328,17 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "buy_buttons_ej8JrX": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f2caca",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
         "image_YnTeGc": {
           "type": "image",
           "settings": {
@@ -391,6 +402,7 @@
         "liquid_tFaHjh",
         "liquid_FVrFjq",
         "rapi_rapi_bundle_NkNzJk",
+        "buy_buttons_ej8JrX",
         "image_YnTeGc",
         "rating_mHLMHk",
         "separator_hYBxwb",
