@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/Ajouter_un_titre_5.png",
             "mobile_image": "shopify://shop_images/Ajouter_un_titre_1200_x_1600_px_1200_x_627_px_1200_x_1000_px.png",
             "content_max_width": 1200,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "Ovale redessiné, rides atténuées, éclat sublimé en 21 jours, naturellement",
