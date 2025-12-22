@@ -418,6 +418,19 @@
         "text_color": ""
       }
     },
+    "before_after_image_VWrxmM": {
+      "type": "before-after-image",
+      "name": "Avant/Après SKINYLISS",
+      "settings": {
+        "title": "Résultats visibles en 30 jours",
+        "text1": "Découvrez la transformation spectaculaire obtenue grâce à notre appareil LED 7 couleurs SKINYLISS. En seulement 30 jours d'utilisation régulière, observez la réduction visible des imperfections et l'amélioration du teint.",
+        "text2": "Faites glisser le curseur pour comparer les résultats avant et après le traitement.",
+        "image_before": "shopify://shop_images/Sans_titre_881_x_1200_px_1.png",
+        "image_after": "shopify://shop_images/Sans_titre_881_x_1200_px.png",
+        "label_before": "AVANT",
+        "label_after": "APRÈS"
+      }
+    },
     "custom_liquid_8camay": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -554,6 +567,7 @@
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "custom_liquid_dA9UXi",
+    "before_after_image_VWrxmM",
     "custom_liquid_8camay",
     "17657420308042fea2",
     "faq_k69zVR",
