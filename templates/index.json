@@ -295,6 +295,12 @@
             "liquid": "<style>\n  .blink {\n    animation: blink-animation 1.5s steps(5, start) infinite;\n    color: red;\n    display: inline-block;\n    vertical-align: middle;\n    font-size: 10px;\n  }\n  @keyframes blink-animation {\n    to {\n      visibility: hidden;\n    }\n  }\n  .red-div {\n    padding: 2px 10px;\n    border-radius: 8px;\n    display: inline-block;\n    text-align: center;\n    margin: 0 auto;\n  }\n  .text {\n    display: inline-block;\n    vertical-align: middle;\n    margin-left: 10px;\n    color: #AD0000;\n    font-weight: 600;\n    font-size: 12px;\n  }\n  .stock-count {\n    font-weight: 700;\n    font-size: 14px;\n    color: #FF0000;\n  }\n</style>\n<div class=\"red-div\">\n  <div class=\"blink\">&#9679;</div>\n  <div class=\"text\">Plus que <span class=\"stock-count\">5</span> en stock !</div>\n</div>"
           }
         },
+        "liquid_UtPBAp": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .promo-badge-noel {\n    background: linear-gradient(135deg, #F5E6D3 0%, #E8D4C0 100%);\n    border-radius: 15px;\n    padding: 15px 25px;\n    text-align: center;\n    margin: 20px auto;\n    max-width: 320px;\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n  }\n  \n  .promo-badge-noel .promo-title {\n    color: #B8846C;\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    margin-bottom: 5px;\n    text-transform: uppercase;\n  }\n  \n  .promo-badge-noel .promo-discount {\n    color: #8B1538;\n    font-size: 24px;\n    font-weight: 700;\n    margin: 8px 0;\n    line-height: 1;\n  }\n  \n  .promo-badge-noel .promo-stock {\n    color: #000000;\n    font-size: 14px;\n    font-weight: 700;\n    margin-top: 5px;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n  }\n  \n  @media (max-width: 768px) {\n    .promo-badge-noel {\n      max-width: 280px;\n      padding: 12px 20px;\n    }\n    .promo-badge-noel .promo-title {\n      font-size: 14px;\n    }\n    .promo-badge-noel .promo-discount {\n      font-size: 20px;\n    }\n    .promo-badge-noel .promo-stock {\n      font-size: 12px;\n    }\n  }\n</style>\n\n<div class=\"promo-badge-noel\">\n  <div class=\"promo-title\">Promo de Noël</div>\n  <div class=\"promo-discount\">50% DE RÉDUCTION</div>\n  <div class=\"promo-stock\">STOCK LIMITÉ</div>\n</div>"
+          }
+        },
         "kaching_bundles_app_block_FfCLUg": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -381,6 +387,7 @@
         "price_9awAzP",
         "liquid_tFaHjh",
         "liquid_FVrFjq",
+        "liquid_UtPBAp",
         "kaching_bundles_app_block_FfCLUg",
         "liquid_ReE7nj",
         "buy_buttons_ej8JrX",
