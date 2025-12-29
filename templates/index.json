@@ -314,6 +314,14 @@
             "liquid": "<style>\n  .gift-banner-simple {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 12px 20px;\n    margin: 15px 0;\n  }\n  \n  .gift-banner-simple .gift-icon {\n    font-size: 32px;\n    line-height: 1;\n  }\n  \n  .gift-banner-simple .gift-text {\n    color: #000000;\n    font-size: 14px;\n    font-weight: 600;\n    line-height: 1.4;\n  }\n  \n  @media (max-width: 768px) {\n    .gift-banner-simple {\n      padding: 10px 15px;\n    }\n    .gift-banner-simple .gift-icon {\n      font-size: 28px;\n    }\n    .gift-banner-simple .gift-text {\n      font-size: 13px;\n    }\n  }\n</style>\n\n<div class=\"gift-banner-simple\">\n  <div class=\"gift-icon\">🎁</div>\n  <div class=\"gift-text\">7 clients sur 10 offrent un SKINYLISS en cadeau pour un proche ou une amie</div>\n</div>"
           }
         },
+        "image_wfqrQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flash_banner.png",
+            "alignment": "center",
+            "max_width": 360
+          }
+        },
         "buy_buttons_ej8JrX": {
           "type": "buy_buttons",
           "settings": {
@@ -396,6 +404,7 @@
         "liquid_UtPBAp",
         "kaching_bundles_app_block_FfCLUg",
         "liquid_ReE7nj",
+        "image_wfqrQm",
         "buy_buttons_ej8JrX",
         "image_YnTeGc",
         "liquid_Vdx9XW",
