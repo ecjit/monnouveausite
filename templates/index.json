@@ -297,8 +297,17 @@
         },
         "liquid_UtPBAp": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<style>\n  .promo-badge-skinyliss {\n    background: linear-gradient(135deg, #FFE8E8 0%, #FFD1D1 100%);\n    border-radius: 15px;\n    padding: 15px 25px;\n    text-align: center;\n    margin: 20px auto;\n    max-width: 320px;\n    box-shadow: 0 6px 16px rgba(214, 52, 71, 0.4);\n    border: 2px solid #D63447;\n  }\n  \n  .promo-badge-skinyliss .promo-title {\n    color: #D63447;\n    font-size: 16px;\n    font-weight: 900;\n    letter-spacing: 1px;\n    margin-bottom: 5px;\n    text-transform: uppercase;\n  }\n  \n  .promo-badge-skinyliss .promo-discount {\n    color: #8B1538;\n    font-size: 22px;\n    font-weight: 900;\n    margin: 8px 0;\n    line-height: 1.2;\n  }\n  \n  .promo-badge-skinyliss .promo-stock {\n    color: #D63447;\n    font-size: 14px;\n    font-weight: 900;\n    margin-top: 5px;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n  }\n  \n  @media (max-width: 768px) {\n    .promo-badge-skinyliss {\n      max-width: 280px;\n      padding: 12px 20px;\n    }\n    .promo-badge-skinyliss .promo-title {\n      font-size: 14px;\n    }\n    .promo-badge-skinyliss .promo-discount {\n      font-size: 18px;\n    }\n    .promo-badge-skinyliss .promo-stock {\n      font-size: 12px;\n    }\n  }\n</style>\n<div class=\"promo-badge-skinyliss\">\n  <div class=\"promo-title\">❄️ SOLDES D'HIVER ❄️</div>\n  <div class=\"promo-discount\">-69% + 4 CADEAUX</div>\n  <div class=\"promo-stock\">STOCK LIMITÉ</div>\n</div>"
+          }
+        },
+        "image_wfqrQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flash_banner.png",
+            "alignment": "center",
+            "max_width": 360
           }
         },
         "kaching_bundles_app_block_FfCLUg": {
@@ -312,14 +321,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<style>\n  .gift-banner-simple {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 12px 20px;\n    margin: 15px 0;\n  }\n  \n  .gift-banner-simple .gift-icon {\n    font-size: 32px;\n    line-height: 1;\n  }\n  \n  .gift-banner-simple .gift-text {\n    color: #000000;\n    font-size: 14px;\n    font-weight: 600;\n    line-height: 1.4;\n  }\n  \n  @media (max-width: 768px) {\n    .gift-banner-simple {\n      padding: 10px 15px;\n    }\n    .gift-banner-simple .gift-icon {\n      font-size: 28px;\n    }\n    .gift-banner-simple .gift-text {\n      font-size: 13px;\n    }\n  }\n</style>\n\n<div class=\"gift-banner-simple\">\n  <div class=\"gift-icon\">🎁</div>\n  <div class=\"gift-text\">7 clients sur 10 offrent un SKINYLISS en cadeau pour un proche ou une amie</div>\n</div>"
-          }
-        },
-        "image_wfqrQm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/flash_banner.png",
-            "alignment": "center",
-            "max_width": 360
           }
         },
         "buy_buttons_ej8JrX": {
@@ -402,9 +403,9 @@
         "liquid_tFaHjh",
         "liquid_FVrFjq",
         "liquid_UtPBAp",
+        "image_wfqrQm",
         "kaching_bundles_app_block_FfCLUg",
         "liquid_ReE7nj",
-        "image_wfqrQm",
         "buy_buttons_ej8JrX",
         "image_YnTeGc",
         "liquid_Vdx9XW",
