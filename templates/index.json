@@ -179,21 +179,66 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_WpYBWK": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "multi_column_VKCBEV": {
+      "type": "multi-column",
+      "blocks": {
+        "item_njRwyW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/JOUR_1_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X4G4L3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/JOUR_1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Y3dfgc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/JOUR_1_1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_njRwyW",
+        "item_X4G4L3",
+        "item_Y3dfgc"
+      ],
+      "name": "Multi-column",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/4014097b-2714-4462-810e-e35d7ce6ea47.png",
-        "mobile_image": "shopify://shop_images/4014097b-2714-4462-810e-e35d7ce6ea47.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "multi_column_GrPPNF": {
@@ -623,7 +668,7 @@
     "rich_text_eHCgRd",
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
-    "image_with_text_overlay_WpYBWK",
+    "multi_column_VKCBEV",
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "custom_liquid_dA9UXi",
