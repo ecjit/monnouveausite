@@ -182,6 +182,32 @@
     "multi_column_VKCBEV": {
       "type": "multi-column",
       "blocks": {
+        "item_hmfcGT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ROSE22.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eb4i4W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/monique_35.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_njRwyW": {
           "type": "item",
           "settings": {
@@ -223,6 +249,8 @@
         }
       },
       "block_order": [
+        "item_hmfcGT",
+        "item_eb4i4W",
         "item_njRwyW",
         "item_X4G4L3",
         "item_Y3dfgc"
