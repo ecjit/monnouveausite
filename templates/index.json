@@ -373,7 +373,7 @@
         "image_wfqrQm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Kaching-Bundles-cadeau_full.png",
+            "image": "shopify://shop_images/banner_solde_promo.png",
             "alignment": "center",
             "max_width": 430
           }
