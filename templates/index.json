@@ -373,7 +373,7 @@
         "image_wfqrQm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_solde_promo.png",
+            "image": "shopify://shop_images/banner_solde_promo_finale.png",
             "alignment": "center",
             "max_width": 430
           }
@@ -697,11 +697,11 @@
     "rich_text_eHCgRd",
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
+    "before_after_image_VWrxmM",
     "multi_column_VKCBEV",
     "multi_column_GrPPNF",
     "featured_product_EJjyRn",
     "custom_liquid_dA9UXi",
-    "before_after_image_VWrxmM",
     "custom_liquid_8camay",
     "17657420308042fea2",
     "faq_k69zVR",
