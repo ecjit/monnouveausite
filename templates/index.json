@@ -198,20 +198,7 @@
         "item_hmfcGT": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/ROSE22.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_eb4i4W": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/monique_35.webp",
+            "image": "shopify://shop_images/lily_rose3.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -263,7 +250,6 @@
       },
       "block_order": [
         "item_hmfcGT",
-        "item_eb4i4W",
         "item_njRwyW",
         "item_X4G4L3",
         "item_Y3dfgc"
