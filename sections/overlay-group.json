@@ -14,13 +14,13 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "apparition_delay": 5,
+        "apparition_delay": 8,
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
-        "title": "Signup for our newsletter",
-        "button_text": "Subscribe",
-        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        "title": "Inscris-toi à notre newsletter et recois des offres incontournable !",
+        "button_text": "Inscris-toi",
+        "subtext": ""
       }
     },
     "privacy-banner": {
