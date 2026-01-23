@@ -372,7 +372,7 @@
         "image_wfqrQm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_solde_promo_finale.png",
+            "image": "shopify://shop_images/saint-valentin.png",
             "alignment": "center",
             "max_width": 430
           }
