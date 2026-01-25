@@ -195,10 +195,49 @@
     "multi_column_VKCBEV": {
       "type": "multi-column",
       "blocks": {
-        "item_hmfcGT": {
+        "item_h9tLD4": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/lily_rose3.png",
+            "image": "shopify://shop_images/before_after_aurelie_fr.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NFXypm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/before_after_emma_fr.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_p8PVnX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/before_after_martine_fr.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7z9phj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/before_after_monique_fr.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -211,20 +250,7 @@
         "item_njRwyW": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/JOUR_1_5.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_X4G4L3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/JOUR_1.png",
+            "image": "shopify://shop_images/soohie.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -237,7 +263,7 @@
         "item_Y3dfgc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/JOUR_1_1.png",
+            "image": "shopify://shop_images/isabelle_55.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -249,9 +275,11 @@
         }
       },
       "block_order": [
-        "item_hmfcGT",
+        "item_h9tLD4",
+        "item_NFXypm",
+        "item_p8PVnX",
+        "item_7z9phj",
         "item_njRwyW",
-        "item_X4G4L3",
         "item_Y3dfgc"
       ],
       "name": "Multi-column",
