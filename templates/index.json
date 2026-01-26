@@ -299,14 +299,27 @@
     "multi_column_GrPPNF": {
       "type": "multi-column",
       "blocks": {
+        "item_NFdBnX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/video2_7622cd74-dc1d-4103-9fa2-898936d760a2.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_Xta4k3": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/video_1.mp4",
+            "video": "shopify://files/videos/video1.mp4",
             "column_size": "3",
-            "title": "Morgane F.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p><br/>Je n’aimais plus mon reflet le matin, j’avais l’air épuisée. Avec SKINYLISS mon visage paraît plus reposé et ma peau plus lisse. C’est devenu mon petit rituel qui me fait du bien. </p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -317,9 +330,9 @@
           "settings": {
             "video": "shopify://files/videos/video3.mp4",
             "column_size": "3",
-            "title": "Cassandra S.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>« Mon visage reflétait tout mon stress… Depuis que j’utilise SKINYLISS le soir, je dégonfle, mes traits sont plus doux et j’ai l’air plus détendue. Même mon mari l’a remarqué. »</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -328,11 +341,11 @@
         "item_737Jzx": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/video2.mp4",
+            "video": "shopify://files/videos/video4.mp4",
             "column_size": "3",
-            "title": "Suzana K.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p><br/>J’étais complexée par mon double menton et les marques de fatigue. Après quelques semaines avec SKINYLISS, ma peau est plus lumineuse et mon visage plus “tenu”. Je me sens enfin plus confiante.<br/><br/></p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -340,6 +353,7 @@
         }
       },
       "block_order": [
+        "item_NFdBnX",
         "item_Xta4k3",
         "item_3kALVU",
         "item_737Jzx"
