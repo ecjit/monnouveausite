@@ -534,7 +534,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .how-to-use-section {\n    padding: 40px 20px;\n    background-color: #ffffff;\n  }\n\n  .how-to-use-container {\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .how-to-use-title {\n    text-align: center;\n    font-size: 28px;\n    font-weight: 700;\n    letter-spacing: 2px;\n    margin-bottom: 50px;\n    color: #000000;\n  }\n\n  .steps-wrapper {\n    display: flex;\n    flex-direction: column;\n    gap: 40px;\n  }\n\n  .step-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n    position: relative;\n  }\n\n  .step-number {\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    border: 3px solid #FFB6C1;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 48px;\n    font-weight: 700;\n    color: #FFB6C1;\n    margin-bottom: 20px;\n    background-color: white;\n  }\n\n  .step-content h3 {\n    font-size: 20px;\n    font-weight: 700;\n    margin-bottom: 12px;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n    color: #000000;\n  }\n\n  .step-content p {\n    font-size: 15px;\n    line-height: 1.6;\n    color: #000000;\n    max-width: 350px;\n  }\n\n  /* Tablet et Desktop */\n  @media (min-width: 768px) {\n    .how-to-use-section {\n      padding: 60px 40px;\n    }\n\n    .how-to-use-title {\n      font-size: 36px;\n      margin-bottom: 70px;\n    }\n\n    .steps-wrapper {\n      flex-direction: row;\n      justify-content: space-between;\n      align-items: flex-start;\n      gap: 30px;\n    }\n\n    .step-item {\n      flex: 1;\n      position: relative;\n    }\n\n    /* Ligne de connexion entre les étapes */\n    .step-item:not(:last-child)::after {\n      content: '';\n      position: absolute;\n      top: 40px;\n      left: calc(50% + 40px);\n      width: calc(100% - 80px);\n      height: 2px;\n      background-color: #FFB6C1;\n      z-index: -1;\n    }\n\n    .step-number {\n      width: 90px;\n      height: 90px;\n      font-size: 56px;\n      margin-bottom: 30px;\n    }\n\n    .step-content h3 {\n      font-size: 22px;\n      margin-bottom: 16px;\n    }\n\n    .step-content p {\n      font-size: 16px;\n    }\n  }\n\n  @media (min-width: 1024px) {\n    .how-to-use-title {\n      font-size: 42px;\n    }\n\n    .step-content p {\n      max-width: 320px;\n    }\n  }\n</style>\n\n<section class=\"how-to-use-section\">\n  <div class=\"how-to-use-container\">\n    <h2 class=\"how-to-use-title\">COMMENT L'UTILISER</h2>\n    \n    <div class=\"steps-wrapper\">\n      <div class=\"step-item\">\n        <div class=\"step-number\">1</div>\n        <div class=\"step-content\">\n          <h3>ALLUMEZ L'APPAREIL</h3>\n          <p>Allumez notre appareil en maintenant le bouton d'alimentation pendant 3 secondes. Nous recommandons d'utiliser notre produit après avoir appliqué votre hydratant et/ou sérum.</p>\n        </div>\n      </div>\n\n      <div class=\"step-item\">\n        <div class=\"step-number\">2</div>\n        <div class=\"step-content\">\n          <h3>CHOISISSEZ UNE LED & UN MODE</h3>\n          <p>Choisissez entre différents réglages et modes LED en appuyant sur le bouton marche. Vous pouvez basculer entre 7 réglages de lumière LED différents. Vous pouvez également choisir entre les modes EMS, Clean et Heat.</p>\n        </div>\n      </div>\n\n      <div class=\"step-item\">\n        <div class=\"step-number\">3</div>\n        <div class=\"step-content\">\n          <h3>COMMENCEZ LE MASSAGE</h3>\n          <p>Après avoir allumé notre appareil et choisi un mode, commencez à masser votre visage comme vous le feriez avec un gua sha !</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+        "liquid": "<style>\n  .skinyliss-how-to-use {\n    background: linear-gradient(135deg, #FFE5E5 0%, #FFD5D5 100%);\n    padding: 60px 20px;\n    margin: 40px 0;\n  }\n  \n  .how-to-use-container {\n    max-width: 1200px;\n    margin: 0 auto;\n    background: white;\n    border-radius: 20px;\n    padding: 50px 40px;\n  }\n  \n  .how-to-use-title {\n    font-size: 36px;\n    font-weight: 900;\n    color: #1a1a1a;\n    text-align: center;\n    margin: 0 0 50px 0;\n    text-transform: uppercase;\n    letter-spacing: 1px;\n  }\n  \n  .steps-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 40px;\n  }\n  \n  .step-item {\n    text-align: center;\n  }\n  \n  .step-number {\n    width: 80px;\n    height: 80px;\n    border: 4px solid #F2CACA;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 20px;\n    font-size: 42px;\n    font-weight: 900;\n    color: #F2CACA;\n  }\n  \n  .step-title {\n    font-size: 20px;\n    font-weight: 900;\n    color: #1a1a1a;\n    margin: 0 0 10px 0;\n    text-transform: uppercase;\n  }\n  \n  .step-tagline {\n    font-size: 16px;\n    font-weight: 700;\n    color: #1a1a1a;\n    font-style: italic;\n    margin: 0 0 15px 0;\n  }\n  \n  .step-description {\n    font-size: 15px;\n    color: #333;\n    line-height: 1.6;\n    margin: 0;\n  }\n  \n  @media (max-width: 768px) {\n    .skinyliss-how-to-use {\n      padding: 40px 15px;\n    }\n    \n    .how-to-use-container {\n      padding: 30px 20px;\n    }\n    \n    .how-to-use-title {\n      font-size: 24px;\n      margin-bottom: 35px;\n    }\n    \n    .steps-grid {\n      grid-template-columns: 1fr;\n      gap: 35px;\n    }\n    \n    .step-number {\n      width: 70px;\n      height: 70px;\n      font-size: 36px;\n    }\n    \n    .step-title {\n      font-size: 18px;\n    }\n    \n    .step-tagline {\n      font-size: 15px;\n    }\n    \n    .step-description {\n      font-size: 14px;\n    }\n  }\n</style>\n\n<div class=\"skinyliss-how-to-use\">\n  <div class=\"how-to-use-container\">\n    <h2 class=\"how-to-use-title\">Comment l'utiliser</h2>\n    \n    <div class=\"steps-grid\">\n      <!-- Étape 1 -->\n      <div class=\"step-item\">\n        <div class=\"step-number\">1</div>\n        <h3 class=\"step-title\">Allumez l'appareil</h3>\n        <p class=\"step-tagline\">Lancez votre rituel beauté</p>\n        <p class=\"step-description\">Allumez votre appareil en maintenant le bouton d'alimentation pendant 3 secondes. Nous recommandons d'utiliser votre produit après avoir appliqué votre hydratant et/ou sérum.</p>\n      </div>\n      \n      <!-- Étape 2 -->\n      <div class=\"step-item\">\n        <div class=\"step-number\">2</div>\n        <h3 class=\"step-title\">Choisissez une LED & un mode</h3>\n        <p class=\"step-tagline\">Personnalisez votre soin anti-âge</p>\n        <p class=\"step-description\">Choisissez entre différents réglages et modes LED en appuyant sur le bouton marche. Vous pouvez basculer entre 7 réglages de lumière LED différents. Vous pouvez également choisir entre les modes EMS, Clean et Heat.</p>\n      </div>\n      \n      <!-- Étape 3 -->\n      <div class=\"step-item\">\n        <div class=\"step-number\">3</div>\n        <h3 class=\"step-title\">Commencez le massage</h3>\n        <p class=\"step-tagline\">Révélez votre plus belle peau</p>\n        <p class=\"step-description\">Après avoir allumé votre appareil et choisi un mode, commencez à masser votre visage comme vous le feriez avec un gua sha !</p>\n      </div>\n    </div>\n  </div>\n</div>",
         "background": "#f2caca",
         "background_gradient": "",
         "text_color": ""
@@ -551,75 +551,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "faq_k69zVR": {
-      "type": "faq",
-      "blocks": {
-        "item_pGnyiX": {
-          "type": "item",
-          "settings": {
-            "title": "1. Le sculpteur facial SKINYLISS convient-il à tous les types de peau ?",
-            "content": "<p>Skinyliss convient à <strong>tous les types de peau</strong>, y compris les peaux sensibles.<br/><br/>Il est particulièrement apprécié par les personnes qui souhaitent :</p><p>-  atténuer l’apparence des rides et      ridules,</p><p>- raffermir l’ovale du visage,<br/><br/>- réduire l’aspect “fatigué” du teint,<br/></p><p>- lisser la texture de la peau.<br/><br/><br/></p>"
-          }
-        },
-        "item_UhHqAR": {
-          "type": "item",
-          "settings": {
-            "title": "2.  Qu’est-ce que Skinyliss ?",
-            "content": "<p><strong>Skinyliss</strong> est un appareil de massage facial anti-âge conçu pour lisser l’apparence des rides, raffermir la peau et redonner de l’éclat au visage grâce à un massage doux et régulier.<br/><br/></p>"
-          }
-        },
-        "item_JwGtzQ": {
-          "type": "item",
-          "settings": {
-            "title": "3. En combien de temps vais-je voir des résultats ?",
-            "content": "<p>Cela dépend de chaque personne, mais la plupart des utilisatrices disent remarquer :</p><p>un <strong>effet plus reposé</strong> du visage dès les premières utilisations,<br/></p><p>une amélioration progressive de la fermeté et de la texture de la peau après <strong>2 à 4 semaines</strong> d’utilisation régulière.<br/><br/><br/><br/></p>"
-          }
-        },
-        "item_dcehQD": {
-          "type": "item",
-          "settings": {
-            "title": "4. Comment utiliser Skinyliss pour de meilleurs résultats ?",
-            "content": "<p><br/>Utiliser Skinyliss sur une <strong>peau propre</strong> ou avec un <strong>sérum/crème hydratante</strong>.</p><p>Masser le visage et le cou avec des mouvements <strong>lents et vers le haut</strong>.<br/></p><p>Durée recommandée : <strong>5 à 10 minutes par jour</strong>, <strong>3 à 5 fois par semaine</strong>.<br/><br/>La régularité est la clé 🔑.</p>"
-          }
-        },
-        "item_tnMThE": {
-          "type": "item",
-          "settings": {
-            "title": "5. Est-ce que l’appareil fait mal ?",
-            "content": "<p><br/>Non 😊<br/><br/>Le massage Skinyliss est <strong>doux et agréable</strong>.<br/><br/>La plupart des clientes le décrivent comme un moment de <strong>relaxation</strong>, un peu comme un mini-soin en institut à la maison.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_pGnyiX",
-        "item_UhHqAR",
-        "item_JwGtzQ",
-        "item_dcehQD",
-        "item_tnMThE"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "",
-        "team_avatar_width": 230,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "contact_UqVKEY": {
@@ -698,7 +629,6 @@
     "17657420308042fea2",
     "custom_liquid_kEFXgb",
     "custom_liquid_RmFba6",
-    "faq_k69zVR",
     "contact_UqVKEY",
     "1765742019681bd4fc",
     "1766524325f4a0e124"
