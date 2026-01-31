@@ -558,7 +558,7 @@
       "name": "Contact form",
       "settings": {
         "full_width": true,
-        "subheading": "Vous n’êtes jamais seul : notre équipe vous accompagne chaque jour de la semaine, avec un temps de réponse moyen de 24 h pour toujours être là quand vous en avez besoin.",
+        "subheading": "",
         "title": "Avez-vous une question ?",
         "content": "",
         "text_position": "center",
