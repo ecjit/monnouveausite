@@ -10255,3 +10255,15 @@ div[id*="loox"] button:hover {
 }
 
 /* === FIN LOOX CUSTOM === */
+
+/* FORCER L'AFFICHAGE DE TOUS LES ÉLÉMENTS CACHÉS */
+div[id*="loox"] * {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Réinitialiser le flex pour le header */
+div[id*="loox"] #header {
+  display: flex !important;
+}
