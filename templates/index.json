@@ -426,10 +426,6 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector_DUq8PD": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "image_ciM7rT": {
           "type": "image",
           "settings": {
@@ -458,7 +454,6 @@
         "separator_hYBxwb",
         "description_c7McBW",
         "variant_picker_jcJtpE",
-        "quantity_selector_DUq8PD",
         "image_ciM7rT",
         "image_MFkNqj"
       ],
