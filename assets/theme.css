@@ -10171,3 +10171,68 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
     height: 100% !important;
   }
 }
+
+/* === LOOX REVIEWS - 3 BLOCS HORIZONTAUX === */
+
+/* Container principal des reviews */
+.loox-reviews-default {
+  display: block !important;
+}
+
+/* Header avec les 3 blocs */
+.loox-reviews-default > div:first-child {
+  display: grid !important;
+  grid-template-columns: 250px 1fr 200px !important;
+  gap: 20px !important;
+  margin-bottom: 30px !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+/* Box 1 : Rating summary (4.8 sur 5) */
+.loox-reviews-default .loox-rating-summary {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  text-align: center !important;
+  background: white !important;
+}
+
+/* Box 2 : Rating breakdown (barres 5★, 4★...) */
+.loox-reviews-default .loox-rating-breakdown {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  background: white !important;
+}
+
+/* Box 3 : Bouton "Écrire un avis" */
+.loox-reviews-default .loox-write-button-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.loox-reviews-default button.loox-write-button {
+  background: #FFD5D5 !important;
+  color: #1a1a1a !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 15px 30px !important;
+  font-weight: 700 !important;
+  width: 100% !important;
+  cursor: pointer !important;
+}
+
+.loox-reviews-default button.loox-write-button:hover {
+  background: #FFBFBF !important;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .loox-reviews-default > div:first-child {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* === FIN LOOX CUSTOM === */
