@@ -10171,3 +10171,87 @@ shopify-accelerated-checkout, shopify-accelerated-checkout-cart {
     height: 100% !important;
   }
 }
+/* === LOOX REVIEWS - 3 BLOCS HORIZONTAUX (VERSION CORRIGÉE) === */
+
+/* Forcer l'affichage du header */
+.loox-reviews-default #header,
+.loox-reviews-default .minimal-header,
+div[id*="loox"] #header {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+  margin-bottom: 30px !important;
+  flex-wrap: wrap !important;
+}
+
+/* Forcer tous les enfants directs du header à s'afficher */
+.loox-reviews-default #header > div,
+div[id*="loox"] #header > div {
+  display: block !important;
+  flex: 1 !important;
+  min-width: 200px !important;
+}
+
+/* Style pour chaque bloc */
+.loox-reviews-default #header > div,
+div[id*="loox"] #header > div {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 12px !important;
+  padding: 20px !important;
+  background: white !important;
+  box-sizing: border-box !important;
+}
+
+/* Premier bloc (rating summary) */
+.loox-reviews-default #header > div:first-child {
+  flex: 0 0 220px !important;
+  text-align: center !important;
+}
+
+/* Deuxième bloc (breakdown) */
+.loox-reviews-default #header > div:nth-child(2) {
+  flex: 1 !important;
+}
+
+/* Troisième bloc (bouton) */
+.loox-reviews-default #header > div:last-child {
+  flex: 0 0 200px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Style du bouton "Écrire un avis" */
+div[id*="loox"] button,
+.loox-reviews-default button {
+  background: #FFD5D5 !important;
+  color: #1a1a1a !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 15px 30px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  width: 100% !important;
+}
+
+div[id*="loox"] button:hover {
+  background: #FFBFBF !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .loox-reviews-default #header,
+  div[id*="loox"] #header {
+    flex-direction: column !important;
+  }
+  
+  .loox-reviews-default #header > div:first-child,
+  .loox-reviews-default #header > div:last-child {
+    flex: 1 !important;
+    width: 100% !important;
+  }
+}
+
+/* === FIN LOOX CUSTOM === */
