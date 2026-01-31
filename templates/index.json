@@ -312,19 +312,6 @@
             "link_style": "link"
           }
         },
-        "item_3kALVU": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/video3.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_737Jzx": {
           "type": "item",
           "settings": {
@@ -342,7 +329,6 @@
       "block_order": [
         "item_NFdBnX",
         "item_Xta4k3",
-        "item_3kALVU",
         "item_737Jzx"
       ],
       "name": "Multi-column",
@@ -352,7 +338,7 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
-        "title": "Nos clientes en parlent le mieux",
+        "title": "Nos clientes en parlent le mieux :",
         "content": "",
         "background": "#ffffff",
         "background_gradient": "",
