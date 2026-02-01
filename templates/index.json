@@ -518,6 +518,7 @@
     },
     "17657420308042fea2": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -576,6 +577,7 @@
     },
     "1765742019681bd4fc": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
