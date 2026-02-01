@@ -46,13 +46,6 @@
         "disabled": false,
         "settings": {}
       },
-      "3667842014806057753": {
-        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-        "disabled": false,
-        "settings": {
-          "allowed_templates": ""
-        }
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -67,6 +60,13 @@
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block-v2/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": true,
         "settings": {}
+      },
+      "3667842014806057753": {
+        "type": "shopify://apps/one-click-upsell/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "disabled": true,
+        "settings": {
+          "allowed_templates": ""
+        }
       }
     }
   },
