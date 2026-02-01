@@ -428,17 +428,6 @@
             "collapse_content": false
           }
         },
-        "variant_picker_jcJtpE": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "image_ciM7rT": {
           "type": "image",
           "settings": {
@@ -466,7 +455,6 @@
         "rating_mHLMHk",
         "separator_hYBxwb",
         "description_c7McBW",
-        "variant_picker_jcJtpE",
         "image_ciM7rT",
         "image_MFkNqj"
       ],
