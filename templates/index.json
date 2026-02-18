@@ -51,63 +51,17 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "logo_list_CyMbfr": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_cjeGJ8": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/gempages_579889146730906612-7fde3f27-7a58-4a35-b020-dc1efacb2444.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_KYyWmb": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/gempages_579889146730906612-63125cc7-ce54-49be-a16c-784b08b4d471.svg",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_M9abcP": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/cosmo-removebg-preview.avif",
-            "logo_width": 120,
-            "link": ""
-          }
-        },
-        "logo_HL4UXq": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/gempages_579889146730906612-d38baf24-60d5-46a0-ba8d-f608ec72532b.avif",
-            "logo_width": 120,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_cjeGJ8",
-        "logo_KYyWmb",
-        "logo_M9abcP",
-        "logo_HL4UXq"
-      ],
-      "name": "Logo list",
+    "custom_liquid_YpGi6G": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "title": "Vu sur",
-        "content": "",
-        "text_alignment": "center",
-        "items_per_row": 5,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .as-seen-wrapper {\n    background: #fff;\n    padding: 40px 0 30px 0;\n  }\n\n  .as-seen-title {\n    text-align: center;\n    font-family: 'Helvetica Neue', sans-serif;\n    font-size: 22px;\n    font-weight: 700;\n    letter-spacing: 3px;\n    text-transform: uppercase;\n    margin-bottom: 25px;\n  }\n\n  .as-seen-title span.normal {\n    color: #1a1a1a;\n  }\n\n  .as-seen-title span.pink {\n    color: #f4b8c1;\n  }\n\n  .ticker-wrap {\n    width: 100%;\n    overflow: hidden;\n    padding: 10px 0;\n  }\n\n  .ticker-track {\n    display: flex;\n    align-items: center;\n    width: max-content;\n    animation: ticker-scroll 25s linear infinite;\n  }\n\n  .ticker-item {\n    display: flex;\n    align-items: center;\n    padding: 0 30px;\n  }\n\n  .ticker-item img {\n    height: 120px;\n    width: auto;\n    object-fit: contain;\n  }\n\n  @keyframes ticker-scroll {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-50%); }\n  }\n</style>\n\n<div class=\"as-seen-wrapper\">\n\n  <div class=\"as-seen-title\">\n    <span class=\"normal\">VU DANS </span><span class=\"pink\">LA PRESSE</span>\n  </div>\n\n  <div class=\"ticker-wrap\">\n    <div class=\"ticker-track\">\n\n      <!-- Série 1 -->\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo.png?v=1771440901\" alt=\"Glamour\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_1.png?v=1771440898\" alt=\"Cosmopolitan\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_2.png?v=1771440891\" alt=\"Vogue\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_3.png?v=1771440888\" alt=\"Elle\"></div>\n\n      <!-- Série 2 -->\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo.png?v=1771440901\" alt=\"Glamour\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_1.png?v=1771440898\" alt=\"Cosmopolitan\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_2.png?v=1771440891\" alt=\"Vogue\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_3.png?v=1771440888\" alt=\"Elle\"></div>\n\n      <!-- Série 3 -->\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo.png?v=1771440901\" alt=\"Glamour\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_1.png?v=1771440898\" alt=\"Cosmopolitan\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_2.png?v=1771440891\" alt=\"Vogue\"></div>\n      <div class=\"ticker-item\"><img src=\"https://cdn.shopify.com/s/files/1/0976/2888/1238/files/Black_White_Minimal_Modern_Simple_Bold_Business_Mag_Logo_3.png?v=1771440888\" alt=\"Elle\"></div>\n\n    </div>\n  </div>\n\n</div>",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#ffffff",
-        "logo_item_border": ""
+        "text_color": ""
       }
     },
     "rich_text_eHCgRd": {
@@ -607,7 +561,7 @@
   },
   "order": [
     "slideshow",
-    "logo_list_CyMbfr",
+    "custom_liquid_YpGi6G",
     "rich_text_eHCgRd",
     "image_with_text_overlay_rB6M4F",
     "rich_text_pcdz6q",
