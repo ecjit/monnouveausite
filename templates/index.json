@@ -367,12 +367,6 @@
             "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n:root {\n  --social-proof-text-color: #000000;\n  --social-proof-star-color: #76C893;\n}\n\n.social-proof-slide__block-rating {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\nfont-size: 14px;\n}\n\n.social-proof-slide__block-stars {\n    display: flex;\n    margin-right: 8px;\n    color: var(--social-proof-star-color);\n}\n\n.social-proof-slide__block-rating-text {\n    display: inline;\n    color: var(--social-proof-text-color);\n    content: var(--social-proof-rating-text);\n}\n\n.social-proof-star {\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 16px;\n    height: 16px;\n}\n\n.social-proof-star svg {\n    width: 16px;\n    height: 16px;\n    fill: var(--social-proof-star-color);\n}\n</style>\n</head>\n<body>\n\n<div class=\"social-proof-slide__block-rating mt-2\">\n  <span class=\"social-proof-slide__block-stars\">\n    <span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n<span class=\"social-proof-star\">\n      <svg xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <svg class=\"w-[16px] h-[16px]\" fill=\"currentColor\" stroke=\"currentColor\" xmlns=\"http://w3.org/2000/svg\" viewBox=\"0 0 576 512\">\n        <path d=\"M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z\"></path>\n      </svg>\n    </span>\n  </span>\n  <span class=\"social-proof-slide__block-rating-text\">\n    Noté 4,8 par plus de 1 500 clients !  </span>\n</div>\n\n</body>\n</html>"
           }
         },
-        "title_cY9YQy": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
         "badges_khLUFd": {
           "type": "badges",
           "settings": {}
@@ -382,12 +376,6 @@
           "disabled": true,
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "liquid_tFaHjh": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n/* Variables SKINYLISS */\n:root {\n    --rose: #F2CACA;\n    --bg-light: #fafafa;\n    --text-dark: #1a1a1a;\n    --white: #ffffff;\n}\n\n/* Bloc principal */\n.skinyliss-benefits {\n    background: var(--white);\n    padding: 18px 25px;\n    border-radius: 14px;\n    border: 2px solid var(--rose);\n    max-width: 520px;\n    margin: 20px auto;\n    box-shadow: 0 4px 14px rgba(0,0,0,0.06);\n}\n\n/* Liste */\n.benefits-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    flex-direction: column;\n    gap: 10px;\n}\n\n/* Ligne */\n.benefit-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    padding: 12px 18px;\n    background: var(--bg-light);\n    border-radius: 25px;\n    transition: 0.3s ease;\n}\n\n.benefit-item:hover {\n    background: #fff;\n    transform: translateY(-2px);\n    border: 1px solid var(--rose);\n}\n\n/* Icône */\n.check-icon {\n    width: 16px;\n    height: 16px;\n    border: 2px solid var(--rose);\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: var(--rose);\n    font-size: 11px;\n    font-weight: bold;\n    flex-shrink: 0;\n    transition: 0.3s ease;\n}\n\n.benefit-item:hover .check-icon {\n    background: var(--rose);\n    color: #fff;\n}\n\n/* Texte */\n.benefit-text {\n    font-family: 'Montserrat', sans-serif;\n    font-size: 0.9rem;\n    color: var(--text-dark);\n    margin: 0;\n    font-weight: 500;\n    line-height: 1.45;\n}\n\n@media (max-width: 480px) {\n    .benefit-text {\n        font-size: 0.8rem;\n    }\n}\n</style>\n\n<link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap\" rel=\"stylesheet\">\n\n<div class=\"skinyliss-benefits\">\n    <ul class=\"benefits-list\">\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Un visage lifté et rajeuni</p>\n        </li>\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Une peau lisse et repulpée</p>\n        </li>\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Un teint lumineux et unifié</p>\n        </li>\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Un spa à domicile quand vous voulez</p>\n        </li>\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Un regard défatigué instantanément</p>\n        </li>\n        <li class=\"benefit-item\">\n            <div class=\"check-icon\">✓</div>\n            <p class=\"benefit-text\">Des soins décuplés en efficacité</p>\n        </li>\n    </ul>\n</div>"
           }
         },
         "liquid_UtPBAp": {
@@ -445,10 +433,8 @@
       },
       "block_order": [
         "liquid_R6FUUe",
-        "title_cY9YQy",
         "badges_khLUFd",
         "price_9awAzP",
-        "liquid_tFaHjh",
         "liquid_UtPBAp",
         "image_YnTeGc",
         "liquid_Vdx9XW",
@@ -594,6 +580,8 @@
         "loox_reviews_loox_agg_section_QzPGKa": {
           "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
             "only_photos": false,
             "hide_thumbnails": false,
             "product_handle": "",
