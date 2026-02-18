@@ -21,15 +21,15 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Votre peau de 10 ans plus jeune — en 10 minutes par jour.",
-            "heading_tag": "h3",
+            "title": "SPÉCIAL FÊTE DES MÈRES Offre-lui le plus beau cadeau : une peau rayonnante et rajeunie.",
+            "heading_tag": "h2",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 20,
+            "overlay_opacity": 18,
             "background": "",
             "background_gradient": ""
           }
