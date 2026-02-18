@@ -18,7 +18,145 @@
       </div>
     </div>
   {%- else -%}
-    <div class="cart-drawer__inner">
+    <div class="cart-drawer__inner"><!-- TIMER URGENCE -->
+<style>
+.urgency-timer-wrap {
+  background: linear-gradient(135deg, #f2caca 0%, #e8b4b8 100%);
+  padding: 14px 16px;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(242,202,202,0.3);
+  text-align: center;
+}
+
+.urgency-title {
+  font-size: 13px;
+  font-weight: 800;
+  color: #5C3D2E;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.timer-unit {
+  background: rgba(255,255,255,0.6);
+  border-radius: 6px;
+  padding: 8px 12px;
+  min-width: 55px;
+}
+
+.timer-number {
+  font-size: 24px;
+  font-weight: 900;
+  color: #5C3D2E;
+  line-height: 1;
+}
+
+.timer-label {
+  font-size: 9px;
+  color: rgba(92,61,46,0.7);
+  text-transform: uppercase;
+  margin-top: 3px;
+  font-weight: 700;
+}
+
+.timer-separator {
+  font-size: 22px;
+  color: #5C3D2E;
+  font-weight: 700;
+}
+
+.urgency-message {
+  font-size: 11px;
+  color: rgba(92,61,46,0.8);
+  font-weight: 600;
+}
+
+.progress-bar-wrap {
+  width: 100%;
+  height: 4px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 2px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+</style>
+
+<div class="urgency-timer-wrap" id="cartTimer">
+  <div class="urgency-title">
+    🔥 Offre expire dans 🔥
+  </div>
+  
+  <div class="timer-display">
+    <div class="timer-unit">
+      <div class="timer-number" id="ctMin">05</div>
+      <div class="timer-label">Min</div>
+    </div>
+    <div class="timer-separator">:</div>
+    <div class="timer-unit">
+      <div class="timer-number" id="ctSec">00</div>
+      <div class="timer-label">Sec</div>
+    </div>
+  </div>
+  
+  <div class="progress-bar-wrap">
+    <div class="progress-bar-fill" id="ctProg"></div>
+  </div>
+  
+  <div class="urgency-message">
+    ⚡ Dépêchez-vous avant la fin de l'offre !
+  </div>
+</div>
+
+<script>
+(function() {
+  var DUR = 300;
+  var KEY = 'cart_timer';
+  var end = sessionStorage.getItem(KEY);
+  end = end ? parseInt(end) : Date.now() + (DUR * 1000);
+  if (!sessionStorage.getItem(KEY)) sessionStorage.setItem(KEY, end);
+  
+  function upd() {
+    var rem = Math.max(0, Math.floor((end - Date.now()) / 1000));
+    var m = Math.floor(rem / 60);
+    var s = rem % 60;
+    
+    var minEl = document.getElementById('ctMin');
+    var secEl = document.getElementById('ctSec');
+    var progEl = document.getElementById('ctProg');
+    
+    if (minEl) minEl.textContent = (m < 10 ? '0' : '') + m;
+    if (secEl) secEl.textContent = (s < 10 ? '0' : '') + s;
+    if (progEl) progEl.style.width = ((rem / DUR) * 100) + '%';
+    
+    if (rem === 0) {
+      clearInterval(window.cartTimerInt);
+      sessionStorage.removeItem(KEY);
+      var wrap = document.getElementById('cartTimer');
+      if (wrap) wrap.innerHTML = '<div style="padding:15px;color:#5C3D2E;"><div style="font-size:32px;">⏰</div><div style="font-size:16px;font-weight:800;margin:8px 0;">TEMPS ÉCOULÉ !</div></div>';
+    }
+  }
+  
+  upd();
+  window.cartTimerInt = setInterval(upd, 1000);
+})();
+</script>
+<!-- FIN TIMER -->
       <div class="cart-drawer__top">
         <div class="h-stack items-center justify-between">
           <div class="h-stack grow gap-2 sm:gap-2.5">
