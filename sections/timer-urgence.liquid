@@ -1,179 +1,159 @@
 <style>
-  .urgency-timer-wrap {
-    background: linear-gradient(135deg, #FF3B30 0%, #C0392B 100%);
-    padding: 16px 20px;
-    margin: 20px auto;
-    max-width: 500px;
-    border-radius: 12px;
-    box-shadow: 0 6px 24px rgba(255,59,48,0.3);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .urgency-timer-wrap::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
-    animation: shimmer-urgent 2s infinite;
-  }
-  
-  @keyframes shimmer-urgent {
-    0% { left: -100%; }
-    100% { left: 100%; }
-  }
-  
-  .urgency-title {
-    font-size: 14px;
-    font-weight: 800;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-  }
-  
-  .urgency-icon {
-    font-size: 18px;
-    animation: pulse-icon 1s infinite;
-  }
-  
-  @keyframes pulse-icon {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-  }
-  
-  .timer-display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .timer-unit {
-    background: rgba(0,0,0,0.3);
-    border-radius: 8px;
-    padding: 12px 16px;
-    min-width: 70px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.2);
-  }
-  
-  .timer-number {
-    font-size: 32px;
-    font-weight: 900;
-    color: white;
-    line-height: 1;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
-  }
-  
-  .timer-label {
-    font-size: 10px;
-    color: rgba(255,255,255,0.8);
-    text-transform: uppercase;
-    margin-top: 4px;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-  
-  .timer-separator {
-    font-size: 28px;
-    color: white;
-    font-weight: 700;
-    animation: blink-sep 1s infinite;
-    margin-bottom: 8px;
-  }
-  
-  @keyframes blink-sep {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
-  }
-  
-  .urgency-message {
-    font-size: 12px;
-    color: rgba(255,255,255,0.9);
-    font-weight: 600;
-    margin-top: 8px;
-  }
-  
-  .progress-bar-wrap {
-    width: 100%;
-    height: 6px;
-    background: rgba(0,0,0,0.2);
-    border-radius: 3px;
-    margin-top: 12px;
-    overflow: hidden;
-  }
-  
-  .progress-bar-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #FFD700, #FFA500);
-    border-radius: 3px;
-    transition: width 1s linear;
-    box-shadow: 0 0 10px rgba(255,215,0,0.5);
-  }
-  
-  .urgency-timer-wrap.shake {
-    animation: shake 0.5s infinite;
-  }
-  
-  @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-3px); }
-    75% { transform: translateX(3px); }
-  }
-  
-  @media (max-width: 480px) {
-    .urgency-timer-wrap {
-      padding: 14px 16px;
-      margin: 15px 10px;
-    }
-    
-    .timer-unit {
-      padding: 10px 12px;
-      min-width: 60px;
-    }
-    
-    .timer-number {
-      font-size: 28px;
-    }
-    
-    .urgency-title {
-      font-size: 12px;
-    }
-  }
+.urgency-timer-wrap {
+  background: linear-gradient(135deg, #f2caca 0%, #e8b4b8 100%);
+  padding: 16px 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(242,202,202,0.4);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.urgency-timer-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  animation: shimmer-urgent 2s infinite;
+}
+
+@keyframes shimmer-urgent {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.urgency-title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #5C3D2E;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.urgency-icon {
+  font-size: 18px;
+  display: inline-block;
+  animation: pulse-icon 1s infinite;
+}
+
+@keyframes pulse-icon {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.timer-unit {
+  background: rgba(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 70px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.timer-number {
+  font-size: 32px;
+  font-weight: 900;
+  color: #5C3D2E;
+  line-height: 1;
+  text-shadow: 0 2px 8px rgba(92,61,46,0.2);
+}
+
+.timer-label {
+  font-size: 10px;
+  color: rgba(92,61,46,0.7);
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.timer-separator {
+  font-size: 28px;
+  color: #5C3D2E;
+  font-weight: 700;
+  animation: blink-sep 1s infinite;
+}
+
+@keyframes blink-sep {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.urgency-message {
+  font-size: 12px;
+  color: rgba(92,61,46,0.8);
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.progress-bar-wrap {
+  width: 100%;
+  height: 6px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 3px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  border-radius: 3px;
+  transition: width 1s linear;
+  box-shadow: 0 0 10px rgba(255,215,0,0.5);
+}
+
+.urgency-timer-wrap.shake {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+@media (max-width: 480px) {
+  .urgency-timer-wrap { padding: 14px 16px; margin: 15px 10px; }
+  .timer-unit { padding: 10px 12px; min-width: 60px; }
+  .timer-number { font-size: 28px; }
+  .urgency-title { font-size: 12px; }
+}
 </style>
 
-<div class="urgency-timer-wrap" id="urgencyTimer-{{ section.id }}">
+<div class="urgency-timer-wrap" id="urgencyTimerWrap">
   <div class="urgency-title">
     <span class="urgency-icon">🔥</span>
-    <span>Offre expire dans</span>
+    <span style="margin: 0 8px;">Offre expire dans</span>
     <span class="urgency-icon">🔥</span>
   </div>
   
   <div class="timer-display">
     <div class="timer-unit">
-      <div class="timer-number timer-minutes">05</div>
+      <div class="timer-number" id="timerMinutes">05</div>
       <div class="timer-label">Min</div>
     </div>
     <div class="timer-separator">:</div>
     <div class="timer-unit">
-      <div class="timer-number timer-seconds">00</div>
+      <div class="timer-number" id="timerSeconds">00</div>
       <div class="timer-label">Sec</div>
     </div>
   </div>
   
   <div class="progress-bar-wrap">
-    <div class="progress-bar-fill progress-bar"></div>
+    <div class="progress-bar-fill" id="progressBarFill"></div>
   </div>
   
   <div class="urgency-message">
@@ -183,23 +163,18 @@
 
 <script>
 (function() {
-  const TIMER_DURATION = 300;
-  const STORAGE_KEY = 'skinyliss_timer_end_{{ section.id }}';
-  const timerId = 'urgencyTimer-{{ section.id }}';
-  
-  let endTime;
-  let timerInterval;
+  var DURATION = 300;
+  var STORAGE_KEY = 'skinyliss_timer_end';
+  var endTime;
+  var timerInterval;
   
   function initTimer() {
-    const timerWrap = document.getElementById(timerId);
-    if (!timerWrap) return;
-    
-    const stored = sessionStorage.getItem(STORAGE_KEY);
+    var stored = sessionStorage.getItem(STORAGE_KEY);
     
     if (stored) {
       endTime = parseInt(stored, 10);
     } else {
-      endTime = Date.now() + (TIMER_DURATION * 1000);
+      endTime = Date.now() + (DURATION * 1000);
       sessionStorage.setItem(STORAGE_KEY, endTime.toString());
     }
     
@@ -208,46 +183,36 @@
   }
   
   function updateTimer() {
-    const timerWrap = document.getElementById(timerId);
-    if (!timerWrap) return;
+    var now = Date.now();
+    var remaining = Math.max(0, Math.floor((endTime - now) / 1000));
     
-    const now = Date.now();
-    const remaining = Math.max(0, Math.floor((endTime - now) / 1000));
+    var minutes = Math.floor(remaining / 60);
+    var seconds = remaining % 60;
     
-    const minutes = Math.floor(remaining / 60);
-    const seconds = remaining % 60;
+    var minutesEl = document.getElementById('timerMinutes');
+    var secondsEl = document.getElementById('timerSeconds');
+    var progressEl = document.getElementById('progressBarFill');
+    var wrapEl = document.getElementById('urgencyTimerWrap');
     
-    const minutesEl = timerWrap.querySelector('.timer-minutes');
-    const secondsEl = timerWrap.querySelector('.timer-seconds');
-    const progressEl = timerWrap.querySelector('.progress-bar');
+    if (minutesEl) minutesEl.textContent = minutes.toString().length === 1 ? '0' + minutes : minutes.toString();
+    if (secondsEl) secondsEl.textContent = seconds.toString().length === 1 ? '0' + seconds : seconds.toString();
     
-    if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
-    if (secondsEl) secondsEl.textContent = seconds.toString().padStart(2, '0');
-    
-    const progressPercent = (remaining / TIMER_DURATION) * 100;
+    var progressPercent = (remaining / DURATION) * 100;
     if (progressEl) progressEl.style.width = progressPercent + '%';
     
     if (remaining < 60 && remaining > 0) {
-      timerWrap.classList.add('shake');
+      if (wrapEl) wrapEl.classList.add('shake');
     } else {
-      timerWrap.classList.remove('shake');
+      if (wrapEl) wrapEl.classList.remove('shake');
     }
     
     if (remaining === 0) {
       clearInterval(timerInterval);
       sessionStorage.removeItem(STORAGE_KEY);
       
-      timerWrap.innerHTML = `
-        <div style="padding: 20px;">
-          <div style="font-size: 40px; margin-bottom: 10px;">⏰</div>
-          <div style="font-size: 18px; font-weight: 800; color: white; margin-bottom: 8px;">
-            TEMPS ÉCOULÉ !
-          </div>
-          <div style="font-size: 13px; color: rgba(255,255,255,0.9);">
-            Rechargez la page pour profiter d'une nouvelle offre
-          </div>
-        </div>
-      `;
+      if (wrapEl) {
+        wrapEl.innerHTML = '<div style="padding: 20px;"><div style="font-size: 40px; margin-bottom: 10px;">⏰</div><div style="font-size: 18px; font-weight: 800; color: #5C3D2E; margin-bottom: 8px;">TEMPS ÉCOULÉ !</div><div style="font-size: 13px; color: rgba(92,61,46,0.8);">Rechargez la page pour profiter d\'une nouvelle offre</div></div>';
+      }
     }
   }
   
@@ -258,15 +223,3 @@
   }
 })();
 </script>
-
-{% schema %}
-{
-  "name": "Timer Urgence",
-  "settings": [],
-  "presets": [
-    {
-      "name": "Timer Urgence"
-    }
-  ]
-}
-{% endschema %}
