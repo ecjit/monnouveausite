@@ -14,6 +14,20 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_fLWgiC": {
+          "type": "message",
+          "settings": {
+            "text": "🎁 Offre Fête des Mères — Sérum + Trousse offerts",
+            "url": ""
+          }
+        },
+        "message_iMWQ4P": {
+          "type": "message",
+          "settings": {
+            "text": "10000+ HAPPY CUSTOMERS",
+            "url": ""
+          }
+        },
         "message_8azzem": {
           "type": "message",
           "settings": {
@@ -37,6 +51,8 @@
         }
       },
       "block_order": [
+        "message_fLWgiC",
+        "message_iMWQ4P",
         "message_8azzem",
         "message_4nYcnz",
         "message"
