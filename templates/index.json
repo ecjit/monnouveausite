@@ -15,11 +15,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_1620_x_900_px_1.png",
+            "image": "shopify://shop_images/hf_20260225_100754_553b1aa9-1e1e-46e1-abe7-563d37dc26aa.jpg",
             "mobile_image": "shopify://shop_images/Sans_titre_1620_x_900_px_1100_x_1500_px_2.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "title": "La lumière qui transforme votre peau, dès la première séance.",
             "heading_tag": "h4",
@@ -29,7 +29,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 18,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
