@@ -315,12 +315,6 @@
             "liquid": ""
           }
         },
-        "rating_mHLMHk": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "separator_hYBxwb": {
           "type": "separator",
           "settings": {}
@@ -363,7 +357,6 @@
         "liquid_Vdx9XW",
         "liquid_bfwW6R",
         "liquid_tUFXdx",
-        "rating_mHLMHk",
         "separator_hYBxwb",
         "liquid_CJi8wm",
         "description_c7McBW",
