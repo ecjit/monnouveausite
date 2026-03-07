@@ -154,5 +154,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
+    ]
   }
 }
