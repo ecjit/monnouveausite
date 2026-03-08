@@ -158,8 +158,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Pour masquer les boutons de paiement rapide */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
-      "/* Pour masquer le texte des taxes et de la livraison */.cart-drawer__footer-subtext {display: none !important;}"
+      "/* Essai 1: Plus spécifique */.cart-drawer__footer .cart-drawer__footer-subtext {display: none !important;}",
+      "/* On garde celui-ci qui marche */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
     ]
   }
 }
