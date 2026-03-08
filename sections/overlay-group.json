@@ -34,7 +34,7 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "custom_css": [
-        ".cart-drawer__footer .cart__note,.cart-drawer [data-shipping-text] {display: none !important;}"
+        ".cart-drawer__footer p,.cart-drawer__footer small,.cart-drawer__footer .caption {display: none !important;}"
       ],
       "settings": {
         "show_cart_note": false,
