@@ -157,9 +157,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* Essai 1: Plus spécifique */.cart-drawer__footer .cart-drawer__footer-subtext {display: none !important;}",
-      "/* On garde celui-ci qui marche */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
-    ]
+    "custom_css": []
   }
 }
