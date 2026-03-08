@@ -22,8 +22,6 @@ Supported variables
     endif
   endfor
 
-  # We have to remove the cart level discount from the calculated amount
-
   assign total_cart_discount = 0
 
   for discount_application in cart.cart_level_discount_applications
@@ -31,13 +29,19 @@ Supported variables
   endfor
 
   assign calculated_total_price = calculated_total_price | minus: total_cart_discount
+  assign threshold_in_cents = settings.cart_free_shipping_threshold | times: 100.0
 -%}
 
 {%- if cart.requires_shipping -%}
-  <free-shipping-bar class="free-shipping-bar" threshold="{{ settings.cart_free_shipping_threshold | times: 100.0 }}" total-price="{{ calculated_total_price }}" reached-message="{{ 'cart.free_shipping_bar.limit_reached_html' | t | escape }}" unreached-message="{{ 'cart.free_shipping_bar.limit_unreached_html' | t | escape }}">
-    {%- comment -%}The span below is the placeholder where the content will be inserted in JS{%- endcomment -%}
-    <span>&nbsp;</span>
-
-    <progress-bar class="progress-bar" role="progressbar" aria-valuemin="0" style="--progress: 0"></progress-bar>
-  </free-shipping-bar>
+  {%- if threshold_in_cents == 0 or calculated_total_price >= threshold_in_cents -%}
+    <div class="free-shipping-bar">
+      <span>{{ 'cart.free_shipping_bar.limit_reached_html' | t }}</span>
+      <progress-bar class="progress-bar" role="progressbar" aria-valuemin="0" style="--progress: 100"></progress-bar>
+    </div>
+  {%- else -%}
+    <free-shipping-bar class="free-shipping-bar" threshold="{{ threshold_in_cents }}" total-price="{{ calculated_total_price }}" reached-message="{{ 'cart.free_shipping_bar.limit_reached_html' | t | escape }}" unreached-message="{{ 'cart.free_shipping_bar.limit_unreached_html' | t | escape }}">
+      <span>&nbsp;</span>
+      <progress-bar class="progress-bar" role="progressbar" aria-valuemin="0" style="--progress: 0"></progress-bar>
+    </free-shipping-bar>
+  {%- endif -%}
 {%- endif -%}
