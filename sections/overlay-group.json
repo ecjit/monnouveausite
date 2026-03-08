@@ -34,7 +34,7 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "custom_css": [
-        ".cart-drawer__footer p,.cart-drawer__footer small,.cart-drawer__footer .caption,.totals__taxes,.cart-drawer .tax-note {display: none !important;}"
+        ".cart-drawer__footer .cart-drawer__taxes,.cart-drawer__footer .cart__taxes,.cart-drawer .cart__note,p.cart__note,.cart-drawer__footer p {display: none !important;}"
       ],
       "settings": {
         "show_cart_note": false,
