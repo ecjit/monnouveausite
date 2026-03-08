@@ -158,7 +158,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
+      ".shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
+      "/* Pour masquer les taxes dans le panier */.cart-drawer__footer .cart-drawer__taxes {display: none !important;}"
     ]
   }
 }
