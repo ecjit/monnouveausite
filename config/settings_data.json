@@ -157,6 +157,9 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* On garde celui-ci qui marche */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
+      "p.text-subdued.text-sm {display: none !important;}"
+    ]
   }
 }
