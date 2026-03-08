@@ -74,7 +74,7 @@ Supported variables
     LINE ITEM CASE (used on cart, order page...)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-    <sale-price class="{% if line_item.original_line_price > line_item.final_line_price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
+    <sale-price class="{% if line_item.original_line_price > line_item.final_line_price or line_item.variant.compare_at_price > line_item.variant.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
       <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
 
       {%- if settings.currency_code_enabled -%}
@@ -84,14 +84,22 @@ Supported variables
       {%- endif -%}
     </sale-price>
 
-    {%- if line_item.original_line_price > line_item.final_line_price -%}
+    {%- if line_item.original_line_price > line_item.final_line_price or line_item.variant.compare_at_price > line_item.variant.price -%}
       <compare-at-price class="{{ compare_at_price_classes }}">
         <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
-        {%- if settings.currency_code_enabled -%}
-          {{- line_item.original_line_price | money_with_currency -}}
-        {%- else -%}
-          {{- line_item.original_line_price | money -}}
+        {%- if line_item.original_line_price > line_item.final_line_price -%}
+          {%- if settings.currency_code_enabled -%}
+            {{- line_item.original_line_price | money_with_currency -}}
+          {%- else -%}
+            {{- line_item.original_line_price | money -}}
+          {%- endif -%}
+        {%- elsif line_item.variant.compare_at_price > line_item.variant.price -%}
+          {%- if settings.currency_code_enabled -%}
+            {{- line_item.variant.compare_at_price | times: line_item.quantity | money_with_currency -}}
+          {%- else -%}
+            {{- line_item.variant.compare_at_price | times: line_item.quantity | money -}}
+          {%- endif -%}
         {%- endif -%}
       </compare-at-price>
     {%- endif -%}
