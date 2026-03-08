@@ -158,9 +158,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
-      "/* Pour masquer les paragraphes dans le pied de page du panier (taxes, etc.) */.cart-drawer__footer p {display: none !important;}",
-      "/* Garder ce code pour masquer les boutons de paiement rapide */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
+      "/* Pour masquer les boutons de paiement rapide */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
+      "/* Pour masquer le texte des taxes et de la livraison */.cart-drawer__footer-subtext {display: none !important;}"
     ]
   }
 }
