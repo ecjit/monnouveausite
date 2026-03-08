@@ -12,6 +12,12 @@
     "main": {
       "type": "main-cart",
       "blocks": {
+        "text_kAXXXX": {
+          "type": "text",
+          "settings": {
+            "content": ""
+          }
+        },
         "totals": {
           "type": "totals",
           "settings": {
@@ -29,11 +35,11 @@
         }
       },
       "block_order": [
+        "text_kAXXXX",
         "totals",
         "cart_note",
         "checkout_button"
       ],
-      "disabled": true,
       "settings": {
         "show_shipping_estimator": true,
         "show_payment_icons": true
