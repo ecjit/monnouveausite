@@ -88,17 +88,17 @@ Supported variables
       <compare-at-price class="{{ compare_at_price_classes }}">
         <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
-        {%- if line_item.original_line_price > line_item.final_line_price -%}
-          {%- if settings.currency_code_enabled -%}
-            {{- line_item.original_line_price | money_with_currency -}}
-          {%- else -%}
-            {{- line_item.original_line_price | money -}}
-          {%- endif -%}
-        {%- elsif line_item.variant.compare_at_price > line_item.variant.price -%}
+        {%- if line_item.variant.compare_at_price > line_item.variant.price -%}
           {%- if settings.currency_code_enabled -%}
             {{- line_item.variant.compare_at_price | times: line_item.quantity | money_with_currency -}}
           {%- else -%}
             {{- line_item.variant.compare_at_price | times: line_item.quantity | money -}}
+          {%- endif -%}
+        {%- else -%}
+          {%- if settings.currency_code_enabled -%}
+            {{- line_item.original_line_price | money_with_currency -}}
+          {%- else -%}
+            {{- line_item.original_line_price | money -}}
           {%- endif -%}
         {%- endif -%}
       </compare-at-price>
