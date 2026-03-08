@@ -159,7 +159,8 @@
   "platform_customizations": {
     "custom_css": [
       ".shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}",
-      "/* Pour masquer les taxes dans le panier */.cart-drawer__footer .cart-drawer__taxes {display: none !important;}"
+      "/* Pour masquer les paragraphes dans le pied de page du panier (taxes, etc.) */.cart-drawer__footer p {display: none !important;}",
+      "/* Garder ce code pour masquer les boutons de paiement rapide */.shopify-payment-button__button--branded,.shopify-payment-button__more-options {display: none !important;}"
     ]
   }
 }
