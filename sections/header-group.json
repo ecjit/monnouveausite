@@ -57,6 +57,7 @@
         "message_4nYcnz",
         "message"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
@@ -67,6 +68,19 @@
         "background": "#f2caca",
         "background_gradient": "",
         "text_color": "#1a1a1a"
+      }
+    },
+    "custom_liquid_whJzhU": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .announce-bar {\n    background-color: #2a1f1a;\n    padding: 10px 0;\n    overflow: hidden;\n    width: 100%;\n    margin: 0;\n  }\n  .announce-track {\n    display: flex;\n    width: max-content;\n    animation: announce-scroll 30s linear infinite;\n  }\n  .announce-track:hover {\n    animation-play-state: paused;\n  }\n  .announce-item {\n    display: flex;\n    align-items: center;\n    white-space: nowrap;\n    font-family: 'Montserrat', sans-serif;\n    font-size: 12px;\n    font-weight: 600;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    color: #f5e8e0;\n    padding: 0 10px;\n  }\n  .announce-sep {\n    color: #c9a97a;\n    margin: 0 18px;\n    font-size: 14px;\n  }\n  .announce-icon {\n    margin-right: 8px;\n  }\n  .announce-highlight {\n    color: #c9a97a;\n  }\n  @keyframes announce-scroll {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-50%); }\n  }\n</style>\n\n<div class=\"announce-bar\">\n  <div class=\"announce-track\">\n\n    <!-- Lot 1 -->\n    <span class=\"announce-item\"><span class=\"announce-icon\">🎁</span> Offre Spéciale — <span class=\"announce-highlight\">&nbsp;Sérum + Trousse offerts</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\">10 000+ <span class=\"announce-highlight\">&nbsp;Clientes Satisfaites</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">🚚</span> Livraison Gratuite à Domicile</span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">🔒</span> Paiement <span class=\"announce-highlight\">&nbsp;100% Sécurisé</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">↩️</span> 90 Jours <span class=\"announce-highlight\">&nbsp;Satisfait ou Remboursé</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">✨</span> Adapté à <span class=\"announce-highlight\">&nbsp;Tous Types de Peau</span></span>\n    <span class=\"announce-sep\">✦</span>\n\n    <!-- Lot 2 — copie pour boucle infinie -->\n    <span class=\"announce-item\"><span class=\"announce-icon\">🎁</span> Offre Spéciale — <span class=\"announce-highlight\">&nbsp;Sérum + Trousse offerts</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\">10 000+ <span class=\"announce-highlight\">&nbsp;Clientes Satisfaites</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">🚚</span> Livraison Gratuite à Domicile</span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">🔒</span> Paiement <span class=\"announce-highlight\">&nbsp;100% Sécurisé</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">↩️</span> 90 Jours <span class=\"announce-highlight\">&nbsp;Satisfait ou Remboursé</span></span>\n    <span class=\"announce-sep\">✦</span>\n    <span class=\"announce-item\"><span class=\"announce-icon\">✨</span> Adapté à <span class=\"announce-highlight\">&nbsp;Tous Types de Peau</span></span>\n    <span class=\"announce-sep\">✦</span>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "header": {
@@ -101,6 +115,7 @@
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_whJzhU",
     "header"
   ]
 }
