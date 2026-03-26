@@ -674,6 +674,27 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "contact_JCQaTH": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "contactez nous",
+        "title": "Avez vous une question ?",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -700,6 +721,7 @@
     "custom_liquid_h9HAdF",
     "custom_liquid_kEFXgb",
     "custom_liquid_REjiQd",
-    "17740882712365a1e4"
+    "17740882712365a1e4",
+    "contact_JCQaTH"
   ]
 }
