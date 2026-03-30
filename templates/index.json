@@ -98,8 +98,8 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/hf_20260326_164827_1487c35d-2a31-4406-8b24-020ec7784f79.jpg",
-        "mobile_image": "shopify://shop_images/hf_20260326_170557_44e407fc-e548-4541-afff-e92afcb64884.jpg",
+        "image": "shopify://shop_images/hf_20260330_092656_df36371c-625d-45f0-98e0-91482d4f984b.png",
+        "mobile_image": "shopify://shop_images/hf_20260330_095140_eb131c11-035b-4f9a-ba11-e2602f5c6dbf.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -628,27 +628,6 @@
         "text_color": ""
       }
     },
-    "contact_JCQaTH": {
-      "type": "contact",
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "contactez nous",
-        "title": "Avez vous une question ?",
-        "content": "",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "17740882712365a1e4": {
       "type": "apps",
       "blocks": {
@@ -720,7 +699,6 @@
     "custom_liquid_9kWwhi",
     "custom_liquid_h9HAdF",
     "custom_liquid_kEFXgb",
-    "contact_JCQaTH",
     "custom_liquid_REjiQd",
     "17740882712365a1e4"
   ]
