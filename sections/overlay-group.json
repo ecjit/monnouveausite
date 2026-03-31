@@ -14,10 +14,11 @@
     "newsletter-popup": {
       "type": "newsletter-popup",
       "settings": {
-        "apparition_delay": 8,
+        "apparition_delay": 2,
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
+        "image": "shopify://shop_images/hf_20260331_101408_e95a5ef5-2273-4369-a765-f746e5e1613d.png",
         "title": "Inscris-toi à notre newsletter et recois des offres incontournable !",
         "button_text": "Inscris-toi",
         "subtext": ""
