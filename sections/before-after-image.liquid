@@ -1,7 +1,9 @@
 {% comment %}
   Section : Comparateur Avant/Après SKINYLISS
-  Usage : Ajouter cette section dans ton thème Shopify
+  Design : Thème Skinyliss — Inter + Playfair Display
 {% endcomment %}
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
   .skinyliss-comparison * {
@@ -10,239 +12,290 @@
     box-sizing: border-box;
   }
 
+  /* ─── SECTION ─── */
   .skinyliss-comparison {
-    font-family: 'Arial', sans-serif;
-    background-color: #FFF5F5;
-    padding: 20px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f7f4f8;
+    padding: 64px 24px 72px;
   }
 
   .skinyliss-comparison .container {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
-    background-color: #F2CACA;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    .skinyliss-comparison .container {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+  }
+
+  /* ─── COLONNE TEXTE ─── */
+  .skinyliss-comparison .text-col {}
+
+  .skinyliss-comparison .sc-tag {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #E8547A;
+    border: 1.5px solid #E8547A;
+    border-radius: 100px;
+    padding: 5px 16px;
+    margin-bottom: 18px;
   }
 
   .skinyliss-comparison h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+    font-weight: 700;
+    color: #1C1C2E;
+    line-height: 1.2;
+    margin-bottom: 6px;
     text-align: left;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #2C2C2C;
-    font-weight: bold;
   }
 
-  .skinyliss-comparison .text-content {
-    margin-bottom: 25px;
+  .skinyliss-comparison h1 em {
+    font-style: italic;
+    color: #E8547A;
+    font-weight: 400;
+  }
+
+  /* Séparateur */
+  .sc-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0 24px;
+    max-width: 200px;
+  }
+  .sc-line {
+    flex: 1;
+    height: 1.5px;
+    background: rgba(232,84,122,0.25);
+    border-radius: 2px;
+  }
+  .sc-diamond {
+    width: 6px; height: 6px;
+    background: #E8547A;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    border-radius: 1px;
   }
 
   .skinyliss-comparison .text-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #2C2C2C;
-    margin-bottom: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.75;
+    color: rgba(28,28,46,0.6);
+    font-weight: 400;
+    margin-bottom: 12px;
   }
 
+  .skinyliss-comparison .text-content p:last-child {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13.5px;
+    color: rgba(28,28,46,0.45);
+    margin-bottom: 0;
+  }
+
+  /* ─── COLONNE SLIDER ─── */
   .skinyliss-comparison .comparison-container {
     position: relative;
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    border-radius: 22px;
     overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 16px 56px rgba(232,84,122,0.14), 0 4px 18px rgba(28,28,46,0.08);
   }
 
   .skinyliss-comparison .comparison-wrapper {
     position: relative;
     width: 100%;
-    padding-bottom: 75%;
+    padding-bottom: 100%;
   }
 
   .skinyliss-comparison .comparison-image {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
     object-fit: cover;
   }
 
-  .skinyliss-comparison .image-before {
-    z-index: 1;
-  }
-
+  .skinyliss-comparison .image-before { z-index: 1; }
   .skinyliss-comparison .image-after {
     z-index: 2;
     clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
   }
 
+  /* ─── LIGNE SLIDER ─── */
   .skinyliss-comparison .slider-container {
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: 0; left: 50%;
     height: 100%;
-    width: 4px;
-    background: white;
+    width: 3px;
+    background: #ffffff;
     cursor: ew-resize;
     z-index: 3;
     transform: translateX(-50%);
   }
 
+  /* Bouton curseur */
   .skinyliss-comparison .slider-button {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background: white;
+    width: 44px; height: 44px;
+    background: #E8547A;
     border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 16px rgba(232,84,122,0.5);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s, background 0.2s;
+  }
+
+  .skinyliss-comparison .slider-button:hover {
+    background: #1C1C2E;
+    transform: translate(-50%, -50%) scale(1.1);
   }
 
   .skinyliss-comparison .slider-button::before,
   .skinyliss-comparison .slider-button::after {
     content: '';
     position: absolute;
-    width: 0;
-    height: 0;
+    width: 0; height: 0;
     border-style: solid;
   }
 
   .skinyliss-comparison .slider-button::before {
     left: 10px;
     border-width: 6px 8px 6px 0;
-    border-color: transparent #333 transparent transparent;
+    border-color: transparent #fff transparent transparent;
   }
 
   .skinyliss-comparison .slider-button::after {
     right: 10px;
     border-width: 6px 0 6px 8px;
-    border-color: transparent transparent transparent #333;
+    border-color: transparent transparent transparent #fff;
   }
 
+  /* ─── LABELS AVANT / APRÈS ─── */
   .skinyliss-comparison .label {
     position: absolute;
-    top: 20px;
-    padding: 8px 16px;
-    background: rgba(255, 255, 255, 0.9);
-    color: #333;
-    font-weight: bold;
-    font-size: 0.9rem;
-    border-radius: 5px;
+    top: 16px;
+    padding: 6px 14px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: #1C1C2E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-radius: 100px;
     z-index: 4;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
   }
 
-  .skinyliss-comparison .label-before {
-    left: 20px;
-  }
+  .skinyliss-comparison .label-before { left: 16px; }
+  .skinyliss-comparison .label-after  { right: 16px; }
+</style>
 
-  .skinyliss-comparison .label-after {
-    right: 20px;
-  }
+<!-- TICKER -->
+<div style="background:#1C1C2E;overflow:hidden;white-space:nowrap;padding:10px 0;font-family:'Inter',sans-serif;">
+  <div style="display:inline-flex;animation:sc-ticker 32s linear infinite;">
+    {% assign sc_phrases = "Rides Effacées en 14 Jours,Peau Lissée & Repulpée,Résultats Visibles dès la 1ère Semaine,Anti-Rides Cliniquement Prouvé,Rajeunissez de 10 Ans,Satisfait ou Remboursé,Sans Injection ni Chirurgie" | split: "," %}
+    {% for i in (1..2) %}
+      {% for phrase in sc_phrases %}
+        <span style="display:inline-flex;align-items:center;gap:10px;padding:0 30px;font-size:11px;font-weight:600;letter-spacing:0.13em;text-transform:uppercase;color:#fff;">
+          <span style="width:5px;height:5px;background:#E8547A;border-radius:50%;flex-shrink:0;display:inline-block;"></span>
+          {{ phrase }}
+        </span>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
 
-  @media (max-width: 768px) {
-    .skinyliss-comparison .comparison-wrapper {
-      padding-bottom: 100%;
-    }
-    
-    .skinyliss-comparison h1 {
-      font-size: 1.5rem;
-    }
-    
-    .skinyliss-comparison .text-content p {
-      font-size: 0.9rem;
-    }
+<style>
+  @keyframes sc-ticker {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
   }
 </style>
 
 <div class="skinyliss-comparison">
   <div class="container">
-    <h1>{{ section.settings.title }}</h1>
-    <div class="text-content">
-      <p>{{ section.settings.text1 }}</p>
-      <p>{{ section.settings.text2 }}</p>
+
+    <!-- TEXTE -->
+    <div class="text-col">
+      <div class="sc-tag">Transformation réelle</div>
+      <h1>{{ section.settings.title }}</h1>
+      <div class="sc-divider">
+        <div class="sc-line"></div>
+        <div class="sc-diamond"></div>
+        <div class="sc-line"></div>
+      </div>
+      <div class="text-content">
+        <p>{{ section.settings.text1 }}</p>
+        <p>{{ section.settings.text2 }}</p>
+      </div>
     </div>
-    
+
+    <!-- SLIDER -->
     <div class="comparison-container">
       <div class="comparison-wrapper">
-        <img src="{{ section.settings.image_before | img_url: 'master' }}" 
-             alt="Avant traitement SKINYLISS" 
-             class="comparison-image image-before" 
-             id="imageBefore">
-        
-        <img src="{{ section.settings.image_after | img_url: 'master' }}" 
-             alt="Après traitement SKINYLISS" 
-             class="comparison-image image-after" 
-             id="imageAfter">
-        
+        <img src="{{ section.settings.image_before | img_url: 'master' }}"
+             alt="Avant traitement SKINYLISS"
+             class="comparison-image image-before"
+             id="imageBefore-{{ section.id }}">
+
+        <img src="{{ section.settings.image_after | img_url: 'master' }}"
+             alt="Après traitement SKINYLISS"
+             class="comparison-image image-after"
+             id="imageAfter-{{ section.id }}">
+
         <div class="label label-before">{{ section.settings.label_before }}</div>
         <div class="label label-after">{{ section.settings.label_after }}</div>
-        
+
         <div class="slider-container" id="slider-{{ section.id }}">
           <div class="slider-button"></div>
         </div>
       </div>
     </div>
+
   </div>
 </div>
 
 <script>
 (function() {
-  const slider = document.getElementById('slider-{{ section.id }}');
-  const imageAfter = document.getElementById('imageAfter');
-  const container = slider.closest('.comparison-wrapper');
-  
-  let isDragging = false;
+  var slider    = document.getElementById('slider-{{ section.id }}');
+  var imgAfter  = document.getElementById('imageAfter-{{ section.id }}');
+  var container = slider.closest('.comparison-wrapper');
+  var isDragging = false;
 
   function updateSlider(x) {
-    const rect = container.getBoundingClientRect();
-    const offsetX = x - rect.left;
-    const percentage = Math.max(0, Math.min(100, (offsetX / rect.width) * 100));
-    
-    slider.style.left = percentage + '%';
-    imageAfter.style.clipPath = `polygon(0 0, ${percentage}% 0, ${percentage}% 100%, 0 100%)`;
+    var rect = container.getBoundingClientRect();
+    var pct  = Math.max(0, Math.min(100, ((x - rect.left) / rect.width) * 100));
+    slider.style.left = pct + '%';
+    imgAfter.style.clipPath = 'polygon(0 0, ' + pct + '% 0, ' + pct + '% 100%, 0 100%)';
   }
 
-  slider.addEventListener('mousedown', function() {
-    isDragging = true;
-  });
+  slider.addEventListener('mousedown',  function()  { isDragging = true; });
+  document.addEventListener('mousemove',function(e) { if (isDragging) updateSlider(e.clientX); });
+  document.addEventListener('mouseup',  function()  { isDragging = false; });
 
-  document.addEventListener('mousemove', function(e) {
-    if (isDragging) {
-      updateSlider(e.clientX);
-    }
-  });
+  slider.addEventListener('touchstart', function(e) { isDragging = true; e.preventDefault(); }, { passive: false });
+  document.addEventListener('touchmove', function(e) { if (isDragging) updateSlider(e.touches[0].clientX); }, { passive: true });
+  document.addEventListener('touchend',  function()  { isDragging = false; });
 
-  document.addEventListener('mouseup', function() {
-    isDragging = false;
-  });
-
-  slider.addEventListener('touchstart', function(e) {
-    isDragging = true;
-    e.preventDefault();
-  });
-
-  document.addEventListener('touchmove', function(e) {
-    if (isDragging) {
-      updateSlider(e.touches[0].clientX);
-    }
-  });
-
-  document.addEventListener('touchend', function() {
-    isDragging = false;
-  });
-
-  container.addEventListener('click', function(e) {
-    updateSlider(e.clientX);
-  });
+  container.addEventListener('click', function(e) { updateSlider(e.clientX); });
 })();
 </script>
 
@@ -282,13 +335,13 @@
       "type": "text",
       "id": "label_before",
       "label": "Label Avant",
-      "default": "AVANT"
+      "default": "Avant"
     },
     {
       "type": "text",
       "id": "label_after",
       "label": "Label Après",
-      "default": "APRÈS"
+      "default": "Après"
     }
   ],
   "presets": [
