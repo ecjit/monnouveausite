@@ -130,11 +130,11 @@
     "1774963681ba04f2c5": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_cards_carousel_j4mx33": {
+        "judge_me_reviews_cards_carousel_eXnaYw": {
           "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "show_sample_reviews": false,
-            "reviews_selection": "product_reviews",
+            "reviews_selection": "custom_products",
             "products": [
               "eyeliss"
             ],
@@ -165,7 +165,7 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_cards_carousel_j4mx33"
+        "judge_me_reviews_cards_carousel_eXnaYw"
       ],
       "settings": {
         "full_width": true,
