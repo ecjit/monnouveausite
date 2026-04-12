@@ -41,21 +41,13 @@
             "text": "Payement 100% sécurisé",
             "url": ""
           }
-        },
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "90 jours satisfait ou remboursé",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "message_fLWgiC",
         "message_iMWQ4P",
         "message_8azzem",
-        "message_4nYcnz",
-        "message"
+        "message_4nYcnz"
       ],
       "disabled": true,
       "settings": {
