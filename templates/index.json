@@ -158,120 +158,14 @@
         "text_color": ""
       }
     },
-    "multi_column_VKCBEV": {
-      "type": "multi-column",
-      "blocks": {
-        "item_h9tLD4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/before_after_aurelie_fr.jpg",
-            "column_size": "3",
-            "title": "Sophie M.",
-            "heading_tag": "h4",
-            "content": "<p>Je n'aurais jamais cru poster une photo avant/après un jour mais là je ne pouvais pas garder ça pour moi. Mes taches brunes me complexaient depuis des années, j'avais tout essayé — crèmes, compléments, rien ne tenait vraiment. Après 6 semaines avec le SKINYLISS mon teint s'est uniformisé de façon vraiment visible. Les taches ont clairement estompé, ma peau est plus lumineuse et lisse. Mon entourage me demande ce que j'ai fait différemment. La réponse c'est juste 10 minutes par jour avec cet appareil. Franchement merci.<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_NFXypm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/before_after_emma_fr.jpg",
-            "column_size": "3",
-            "title": "Nadia K",
-            "heading_tag": "h4",
-            "content": "<p>J'avais ces rides autour des yeux depuis des années, celles qu'on appelle les pattes d'oie — elles me vieillissaient tellement. J'ai commencé à utiliser le SkinYliss sans vraiment y croire, juste pour essayer. Au bout de 3 semaines ma fille m'a regardée et m'a dit 'maman t'as l'air reposée, t'as bien dormi ?' Sauf que non, c'était juste ma peau. Les rides sont visiblement lissées, le contour des yeux est plus ferme et moins marqué. C'est doux, relaxant, et les résultats parlent d'eux-mêmes. Je regrette de ne pas l'avoir découvert 10 ans plus tôt<br/><br/><br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_p8PVnX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/before_after_martine_fr.jpg",
-            "column_size": "3",
-            "title": "Camille R.",
-            "heading_tag": "h4",
-            "content": "<p>Mon mari a sorti une vieille photo de nous datant de 15 ans et m'a dit que je ressemblais à nouveau à cette femme là. Je n'ai pas su quoi répondre. Un mois d'utilisation, c'est tout ce qu'il a fallu.<br/><br/><strong><br/></strong><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_7z9phj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/before_after_monique_fr.jpg",
-            "column_size": "3",
-            "title": "Isabelle T.",
-            "heading_tag": "h4",
-            "content": "<p>À 70 ans je ne pensais plus que ma peau pouvait encore changer. Le SkinYliss m'a prouvé le contraire. Les bajoues se sont raffermies, les rides du cou et des joues sont visiblement atténuées.<br/><br/><strong><br/><br/><br/><br/></strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_njRwyW": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/soohie.png",
-            "column_size": "3",
-            "title": "Leïla B.",
-            "heading_tag": "h4",
-            "content": "<h6>J'avais vu passer la pub plusieurs fois avant de craquer.<br/>Le teint terne, les pores dilatés, le regard fatigué — c'était moi tous les matins. Après 3 semaines de SkinYliss ma peau est nette, lumineuse, les imperfections ont fondu. Je sors maintenant sans fond de teint. Première fois depuis des années.<br/><br/><br/><br/><br/><br/></h6>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_Y3dfgc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/isabelle_55.png",
-            "column_size": "3",
-            "title": "Marie-Christine D.",
-            "heading_tag": "h4",
-            "content": "<p>Les poches sous les yeux me donnaient l'air épuisée en permanence. Le SkinYliss a drainé tout ça en quelques semaines. Mon regard s'est rouvert, les rougeurs ont disparu. Ma collègue m'a demandé si j'avais changé de fond de teint. Non — juste le SkinYliss.<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_h9tLD4",
-        "item_NFXypm",
-        "item_p8PVnX",
-        "item_7z9phj",
-        "item_njRwyW",
-        "item_Y3dfgc"
-      ],
-      "disabled": true,
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_bTjpMj": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
-        "liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .ann-bar {\n    --pink:  #E8547A;\n    --dark:  #1C1C2E;\n    --gold:  #e8c97e;\n    --white: #ffffff;\n    background: var(--dark);\n    overflow: hidden;\n    white-space: nowrap;\n    padding: 11px 0;\n    font-family: 'Inter', -apple-system, sans-serif;\n    width: 100%;\n    position: relative;\n    z-index: 100;\n  }\n\n  /* ── TRACK DÉFILANT ── */\n  .ann-track {\n    display: inline-flex;\n    align-items: center;\n    animation: ann-scroll 35s linear infinite;\n  }\n\n  .ann-track:hover {\n    animation-play-state: paused;\n  }\n\n  /* ── ITEM ── */\n  .ann-item {\n    display: inline-flex;\n    align-items: center;\n    gap: 10px;\n    padding: 0 32px;\n    font-size: 12px;\n    font-weight: 600;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    color: var(--white);\n    white-space: nowrap;\n  }\n\n  /* Point séparateur doré */\n  .ann-dot {\n    width: 5px;\n    height: 5px;\n    background: var(--gold);\n    border-radius: 50%;\n    flex-shrink: 0;\n    display: inline-block;\n  }\n\n  /* Icône optionnelle avant le texte */\n  .ann-icon {\n    font-size: 13px;\n    line-height: 1;\n    flex-shrink: 0;\n  }\n\n  /* Texte en rose pour mettre en valeur */\n  .ann-item .highlight {\n    color: var(--gold);\n  }\n\n  @keyframes ann-scroll {\n    from { transform: translateX(0); }\n    to   { transform: translateX(-50%); }\n  }\n</style>\n\n<div class=\"ann-bar\" role=\"marquee\" aria-label=\"Annonces\">\n  <div class=\"ann-track\">\n\n    {%- comment -%}\n      ══════════════════════════════════════════\n      PERSONNALISATION\n      Modifiez les textes ci-dessous librement.\n      Dupliquez un bloc <span class=\"ann-item\">\n      pour ajouter un message.\n      Les blocs sont dupliqués (x2) pour la\n      boucle infinie.\n      ══════════════════════════════════════════\n    {%- endcomment -%}\n\n    {%- for i in (1..2) -%}\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">↩️</span>\n        Satisfaite ou remboursée — <span class=\"highlight\">&nbsp;90 jours</span>\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">⭐</span>\n        <span class=\"highlight\">+1 500 clientes</span>&nbsp; satisfaites · Note 4.8/5\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🔒</span>\n        Paiement <span class=\"highlight\">&nbsp;100% sécurisé</span> &nbsp;· Données protégées\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🚚</span>\n        Livraison <span class=\"highlight\">&nbsp;rapide & sécurisée</span> &nbsp;· Suivi inclus\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">⏳</span>\n        Stock limité — <span class=\"highlight\">&nbsp;Plus que 5 unités</span> &nbsp;disponibles !\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🔥</span>\n        Offre expire dans <span class=\"highlight\">&nbsp;24h</span> &nbsp;— Ne ratez pas cette opportunité !\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🎁</span>\n        Sérum contour des yeux <span class=\"highlight\">&nbsp;offert</span> &nbsp;avec chaque commande\n        <span class=\"ann-dot\"></span>\n      </span>\n\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">📖</span>\n        Guide beauté anti-âge <span class=\"highlight\">&nbsp;offert</span> &nbsp;à chaque achat\n        <span class=\"ann-dot\"></span>\n      </span>\n\n    {%- endfor -%}\n\n  </div>\n</div>",
+        "liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\n<style>\n  .ann-bar {\n    --pink:  #E8547A;\n    --dark:  #1C1C2E;\n    --gold:  #e8c97e;\n    --white: #ffffff;\n    background: var(--dark);\n    overflow: hidden;\n    white-space: nowrap;\n    padding: 11px 0;\n    font-family: 'Inter', -apple-system, sans-serif;\n    width: 100%;\n    position: relative;\n    z-index: 100;\n  }\n  .ann-track {\n    display: inline-flex;\n    align-items: center;\n    animation: ann-scroll 35s linear infinite;\n  }\n  .ann-track:hover {\n    animation-play-state: paused;\n  }\n  .ann-item {\n    display: inline-flex;\n    align-items: center;\n    gap: 10px;\n    padding: 0 32px;\n    font-size: 12px;\n    font-weight: 600;\n    letter-spacing: 0.12em;\n    text-transform: uppercase;\n    color: var(--white);\n    white-space: nowrap;\n  }\n  .ann-dot {\n    width: 5px;\n    height: 5px;\n    background: var(--gold);\n    border-radius: 50%;\n    flex-shrink: 0;\n    display: inline-block;\n  }\n  .ann-icon {\n    font-size: 13px;\n    line-height: 1;\n    flex-shrink: 0;\n  }\n  .ann-item .highlight {\n    color: var(--gold);\n  }\n  @keyframes ann-scroll {\n    from { transform: translateX(0); }\n    to   { transform: translateX(-50%); }\n  }\n</style>\n\n<div class=\"ann-bar\" role=\"marquee\" aria-label=\"Annonces\">\n  <div class=\"ann-track\">\n    {%- for i in (1..2) -%}\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">↩️</span>\n        Satisfaite ou remboursée — <span class=\"highlight\">&nbsp;30 jours</span>\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">⭐</span>\n        <span class=\"highlight\">+1 500 clientes</span>&nbsp; satisfaites · Note 4.8/5\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🔒</span>\n        Paiement <span class=\"highlight\">&nbsp;100% sécurisé</span> &nbsp;· Données protégées\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🚚</span>\n        Livraison <span class=\"highlight\">&nbsp;rapide & sécurisée</span> &nbsp;· Suivi inclus\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">⏳</span>\n        Stock limité — <span class=\"highlight\">&nbsp;Plus que 5 unités</span> &nbsp;disponibles !\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🔥</span>\n        Offre expire dans <span class=\"highlight\">&nbsp;24h</span> &nbsp;— Ne ratez pas cette opportunité !\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">🎁</span>\n        Sérum contour des yeux <span class=\"highlight\">&nbsp;offert</span> &nbsp;avec chaque commande\n        <span class=\"ann-dot\"></span>\n      </span>\n      <span class=\"ann-item\">\n        <span class=\"ann-icon\">📖</span>\n        Guide beauté anti-âge <span class=\"highlight\">&nbsp;offert</span> &nbsp;à chaque achat\n        <span class=\"ann-dot\"></span>\n      </span>\n    {%- endfor -%}\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -707,7 +601,6 @@
     "custom_liquid_qNzDw3",
     "custom_liquid_Ez4Ldw",
     "custom_liquid_GfPBnR",
-    "multi_column_VKCBEV",
     "custom_liquid_bTjpMj",
     "featured_product_EJjyRn",
     "custom_liquid_aJUHkW",
